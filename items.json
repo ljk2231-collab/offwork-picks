@@ -1,9 +1,9 @@
 [
   {
     "no": 1,
-    "is_top": true,
+    "is_top": false,
     "category": "야근회복·꿀잠",
-    "badge": "🔥 방금 올라온 글",
+    "badge": "안과 진료비 방어템",
     "title": "듀플렉스 쎄라아이 무선 온열 눈마사지기 (화이트)",
     "comment": "안과 진료비 아끼려고 대리님 따라 산 온열 눈마사지기인데 켜자마자 5분 만에 기절함;; 뜨끈하게 눈 기름샘 뚫어주니까 아침에 인공눈물 안 찾아도 돼서 살 것 같음",
     "price": "34,800원",
@@ -69,6 +69,18 @@
     "price": "20,830원",
     "link": "https://link.coupang.com/a/hUuq8IuMwu",
     "image": "https://thumbnail4.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/1761388737231976-e016611a-1c5e-48bf-898e-e7de0fbba27d.jpg",
+    "updated_at": "2026-10-17"
+  },
+  {
+    "no": 7,
+    "is_top": true,
+    "category": "야근회복·꿀잠",
+    "badge": "🔥 방금 올라온 글",
+    "title": "메디니스 무선 공기압 슬랜더 종아리 마사지기 MD-100 (핑크)",
+    "comment": "퇴근하고 집에 오면 종아리 땡땡 부어서 잠도 안 오길래 대리님 따라 산 무선 공기압 마사지기인데 벨크로 감고 켜자마자 다리 알 쫙 풀려서 아침에 바지 핏부터 달라짐;;",
+    "price": "44,320원",
+    "link": "https://link.coupang.com/a/hVn3JMgjtY",
+    "image": "https://thumbnail1.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/7981550767669001-51dbdc84-8103-4a8c-9505-d6bc35e52552.jpg",
     "updated_at": "2026-10-17"
   }
 ]
