@@ -73,14 +73,38 @@
   },
   {
     "no": 7,
-    "is_top": true,
+    "is_top": false,
     "category": "야근회복·꿀잠",
-    "badge": "🔥 방금 올라온 글",
+    "badge": "하체경락 50만원 방어템",
     "title": "메디니스 무선 공기압 슬랜더 종아리 마사지기 MD-100 (핑크)",
     "comment": "퇴근하고 집에 오면 종아리 땡땡 부어서 잠도 안 오길래 대리님 따라 산 무선 공기압 마사지기인데 벨크로 감고 켜자마자 다리 알 쫙 풀려서 아침에 바지 핏부터 달라짐;;",
     "price": "44,320원",
     "link": "https://link.coupang.com/a/hVn3JMgjtY",
     "image": "https://thumbnail1.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/7981550767669001-51dbdc84-8103-4a8c-9505-d6bc35e52552.jpg",
     "updated_at": "2026-10-17"
+  },
+  {
+    "no": 8,
+    "is_top": true,
+    "category": "야근회복·꿀잠",
+    "badge": "도수치료 15만원 방어템",
+    "title": "홈플래닛 더 가벼운 무선 온열 목 어깨 마사지기 (V-NM01)",
+    "comment": "정형외과 도수치료 15만 원 깨지고 옆자리 대리님 따라 산 무선 온열 목어깨 마사지기인데 자기 전에 15분 걸고 있으면 돌덩이 같던 승모근이 말랑하게 풀림;;",
+    "price": "27,890원",
+    "link": "https://link.coupang.com/a/hW2XJNtFds",
+    "image": "https://thumbnail5.coupangcdn.com/thumbnails/remote/492x492ex/image/1025_amir_coupang_oct_80k/0d45/e30a47e1d8f7ab55dfcc8f3d0c59218a74345ecf0168017bd2cdeefc5ca8.jpg",
+    "updated_at": "2026-10-18"
+  },
+  {
+    "no": 9,
+    "is_top": false,
+    "category": "피부과할부방어",
+    "badge": "치과 잇몸치료 방어템",
+    "title": "비타할로 휴대용 무선 구강세정기 물치실 (F5025 화이트)",
+    "comment": "치과 잇몸치료비 12만 원 깨지고 동기 따라 정착한 무선 물치실. 양치하고 1분만 쏴주면 어금니 안쪽 찌꺼기까지 싹 빠져서 피 안 나고 치과 갈 일 사라짐",
+    "price": "24,790원",
+    "link": "https://link.coupang.com/a/hW3epadUlw",
+    "image": "https://thumbnail13.coupangcdn.com/thumbnails/remote/492x492ex/image/1025_amir_coupang_oct_80k/f64c/9d8ce847328babee063d6270b77de100f443f15e29c995b1f06666a7edc4.jpg",
+    "updated_at": "2026-10-18"
   }
 ]
