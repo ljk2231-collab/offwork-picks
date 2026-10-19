@@ -85,7 +85,7 @@
   },
   {
     "no": 8,
-    "is_top": true,
+    "is_top": false,
     "category": "야근회복·꿀잠",
     "badge": "도수치료 15만원 방어템",
     "title": "홈플래닛 더 가벼운 무선 온열 목 어깨 마사지기 (V-NM01)",
@@ -106,5 +106,17 @@
     "link": "https://link.coupang.com/a/hW3epadUlw",
     "image": "https://thumbnail13.coupangcdn.com/thumbnails/remote/492x492ex/image/1025_amir_coupang_oct_80k/f64c/9d8ce847328babee063d6270b77de100f443f15e29c995b1f06666a7edc4.jpg",
     "updated_at": "2026-10-18"
+  },
+  {
+    "no": 10,
+    "is_top": true,
+    "category": "칼퇴·데스크템",
+    "badge": "정형외과 허리주사 방어템",
+    "title": "에이블루 커블체어 와이더 자세교정 의자 (그레이)",
+    "comment": "정형외과 신경주사 14만 원 깨지고 옆자리 대리님 따라 사무실 의자에 깔아둔 자세교정 의자. 앉자마자 골반이랑 요추를 탄탄하게 밀어줘서 다리 꼬는 버릇이랑 허리 통증이 싹 사라짐;;",
+    "price": "35,620원",
+    "link": "https://link.coupang.com/a/hXN63D2Xmu",
+    "image": "https://thumbnail7.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/1831982717555338-117f0637-017a-4b49-83f3-2f817d803ba6.jpg",
+    "updated_at": "2026-10-19"
   }
 ]
