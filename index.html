@@ -211,6 +211,82 @@
     .item-card.top-pick .go-btn {
       background: var(--accent);
     }
+    .affiliate-section {
+      margin-top: 22px;
+      background: var(--card);
+      border: 1.5px solid var(--border);
+      border-radius: 16px;
+      padding: 15px 14px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    }
+    .section-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .section-sub {
+      font-size: 12px;
+      color: var(--sub);
+      margin-bottom: 12px;
+    }
+    .widget-wrap {
+      width: 100%;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #fff;
+    }
+    .quick-links {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .quick-link-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      background: #faf7f2;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 6px;
+      text-align: center;
+      transition: transform 0.12s ease, border-color 0.12s ease;
+    }
+    .quick-link-card:active {
+      transform: scale(0.97);
+    }
+    .quick-link-card .ql-emoji {
+      font-size: 18px;
+      margin-bottom: 4px;
+    }
+    .quick-link-card .ql-title {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.3px;
+    }
+    .quick-link-card .ql-desc {
+      font-size: 10.5px;
+      color: var(--sub);
+      margin-top: 1px;
+    }
+    .cat-banner-stack {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      margin-top: 8px;
+    }
+    .cat-banner-stack iframe {
+      max-width: 100%;
+      border-radius: 10px;
+    }
     .footer-note {
       margin-top: 24px;
       font-size: 11.5px;
@@ -233,7 +309,7 @@
     </div>
 
     <div class="search-box">
-      <input type="text" id="searchInput" placeholder="번호(예: 1, 2) 또는 상품명·키워드 검색..." />
+      <input type="text" id="searchInput" placeholder="번호(예: 1, 8) 또는 상품명·키워드 검색..." />
     </div>
 
     <div class="cat-tabs" id="catTabs">
@@ -245,6 +321,51 @@
     </div>
 
     <div class="item-list" id="itemList"></div>
+
+    <!-- 1. 쿠팡 파트너스 공식 검색 위젯 -->
+    <div class="affiliate-section">
+      <div class="section-title">🔍 찾는 상품이 리스트에 없다면?</div>
+      <div class="section-sub">아래 검색창에서 필요한 생필품·꿀템을 바로 쿠팡 로켓배송으로 찾아보세요.</div>
+      <div class="widget-wrap">
+        <iframe src="https://coupa.ng/cqfQev" width="100%" height="75" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" title="쿠팡 검색"></iframe>
+      </div>
+    </div>
+
+    <!-- 2. 다이나믹 배너 (고객 관심 기반 맞춤 추천) -->
+    <div class="affiliate-section">
+      <div class="section-title">🎁 내 관심사 맞춤 쿠팡 추천템</div>
+      <div class="section-sub">최근 눈여겨본 상품과 자취 직장인 인기 베스트셀러 모음</div>
+      <div class="widget-wrap" style="display:flex; justify-content:center;">
+        <iframe src="https://ads-partners.coupang.com/widgets.html?id=1040932&template=carousel&trackingCode=AF0777828&subId=offwork_picks&width=440&height=140&tsource=" width="100%" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" title="쿠팡 맞춤 추천"></iframe>
+      </div>
+    </div>
+
+    <!-- 3. 카테고리 특가 바로가기 & 공식 카테고리 배너 -->
+    <div class="affiliate-section">
+      <div class="section-title">⚡ 자취 직장인 매일 출석하는 쿠팡 특가존</div>
+      <div class="section-sub">오늘만 열리는 반값 할인 & 퇴근 전 시키는 새벽배송 특가</div>
+      <div class="quick-links">
+        <a class="quick-link-card" href="https://link.coupang.com/a/hX3w4Uapyu" target="_blank" rel="noopener" onclick="trackClick({no:'GOLDBOX', title:'골드박스 오늘의특가'})">
+          <span class="ql-emoji">🔥</span>
+          <span class="ql-title">골드박스</span>
+          <span class="ql-desc">오늘만 초특가</span>
+        </a>
+        <a class="quick-link-card" href="https://link.coupang.com/a/hX3w5lyMV2" target="_blank" rel="noopener" onclick="trackClick({no:'FRESH', title:'로켓프레시 새벽배송'})">
+          <span class="ql-emoji">🥗</span>
+          <span class="ql-title">로켓프레시</span>
+          <span class="ql-desc">자취식단·야식</span>
+        </a>
+        <a class="quick-link-card" href="https://link.coupang.com/a/hX3w5Hiz1x" target="_blank" rel="noopener" onclick="trackClick({no:'ROCKET', title:'로켓배송 베스트'})">
+          <span class="ql-emoji">🚀</span>
+          <span class="ql-title">로켓배송</span>
+          <span class="ql-desc">내일 도착 보장</span>
+        </a>
+      </div>
+      <div class="cat-banner-stack">
+        <iframe src="https://ads-partners.coupang.com/widgets.html?id=1040930&template=banner&trackingCode=AF0777828&subId=offwork_picks&width=320&height=100" width="320" height="100" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" title="골드박스 배너"></iframe>
+        <iframe src="https://ads-partners.coupang.com/widgets.html?id=1040931&template=banner&trackingCode=AF0777828&subId=offwork_picks&width=320&height=100" width="320" height="100" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" title="로켓프레시 배너"></iframe>
+      </div>
+    </div>
 
     <div class="footer-note">
       쓰레드 게시글에서 안내된 번호를 누르시면 쿠팡 로켓배송 페이지로 바로 이동합니다.
