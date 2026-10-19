@@ -109,7 +109,7 @@
   },
   {
     "no": 10,
-    "is_top": true,
+    "is_top": false,
     "category": "칼퇴·데스크템",
     "badge": "정형외과 허리주사 방어템",
     "title": "에이블루 커블체어 와이더 자세교정 의자 (그레이)",
@@ -117,6 +117,54 @@
     "price": "35,620원",
     "link": "https://link.coupang.com/a/hXN63D2Xmu",
     "image": "https://thumbnail7.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/1831982717555338-117f0637-017a-4b49-83f3-2f817d803ba6.jpg",
+    "updated_at": "2026-10-19"
+  },
+  {
+    "no": 11,
+    "is_top": true,
+    "category": "야근회복·꿀잠",
+    "badge": "자취방 도시가스비 방어템",
+    "title": "한일의료기 전자파 안심 워셔블 탄소매트 싱글 (라인체크그레이)",
+    "comment": "자취방 보일러 틀기 무서워서 이불 속에 깐 워셔블 탄소매트. 일반 전기장판처럼 일어나면 머리 띵하고 입 마르는 게 아예 없고 세탁기에 통째로 빨 수 있어서 겨울 내내 여기 누우면 기절함;;",
+    "price": "54,900원",
+    "link": "https://link.coupang.com/a/hYM5mJi4ES",
+    "image": "https://thumbnail15.coupangcdn.com/thumbnails/remote/600x600ex/image/vendor_inventory/b8c4/98f50fa40759853e721dc0768c2b4ae490ab1a27e6a39ec03089a599261c.jpg",
+    "updated_at": "2026-10-19"
+  },
+  {
+    "no": 12,
+    "is_top": false,
+    "category": "칼퇴·데스크템",
+    "badge": "사무실 히터 각질 방어템",
+    "title": "유리아쥬 제모스 스틱레브르 립밤 무향 (4g × 2개)",
+    "comment": "사무실 난방 틀자마자 입술 찢어지고 립밤 발라도 하얗게 요플레 현상 뜨던 거 한방에 잡은 무향 스틱. 기름처럼 겉돌지 않고 쫀쫀하게 밀착돼서 매트 틴트 바르기 전에 무조건 이거부터 바름",
+    "price": "14,730원",
+    "link": "https://link.coupang.com/a/hYM2SQFWFw",
+    "image": "https://t5c.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/470629197179913-1265e397-233f-48ca-aec5-2fa442229f4a.jpg",
+    "updated_at": "2026-10-19"
+  },
+  {
+    "no": 13,
+    "is_top": false,
+    "category": "피부과할부방어",
+    "badge": "스타킹 올나감 방어템",
+    "title": "메디율 고보습 발각질 연화제 유리아 풋크림 (70ml)",
+    "comment": "출근길에 발뒤꿈치 각질에 걸려서 새 스타킹 올 나간 날 현타 와서 정착한 유리아 풋크림. 굳은살 갈아낼 필요 없이 자기 전에 바르고 수면양말 신고 자면 아침에 아기 발바닥처럼 부들부들해짐;;",
+    "price": "25,910원",
+    "link": "https://link.coupang.com/a/hYM3SyI8U8",
+    "image": "https://thumbnail12.coupangcdn.com/thumbnails/remote/600x600ex/image/vendor_inventory/2375/c89c550528dcab11ccb7ae172fbfb842b17e8a7b5d73814c9c7df3b59b9a.jpg",
+    "updated_at": "2026-10-19"
+  },
+  {
+    "no": 14,
+    "is_top": false,
+    "category": "피부과할부방어",
+    "badge": "구축 자취방 등드름 방어템",
+    "title": "닥터피엘 2중 필터 샤워기 헤드 기본세트",
+    "comment": "이사 온 자취방에서 샤워할 때마다 등드름 올라오고 머리카락 푸석해지길래 바꾼 필터 샤워기인데 2주 만에 하얀 필터가 누렇게 변하는 거 보고 소름 돋음;; 수압도 세지고 피부 가려운 거 싹 잡힘",
+    "price": "32,800원",
+    "link": "https://link.coupang.com/a/hYM3QfFjmC",
+    "image": "https://t2a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/147349685162610-7ef4cabf-303c-414d-a0d9-b9b1cc9123a1.png",
     "updated_at": "2026-10-19"
   }
 ]
