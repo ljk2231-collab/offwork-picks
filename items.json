@@ -93,15 +93,16 @@
   {
     "no": 8,
     "subId": "pick08",
-    "is_top": false,
+    "is_top": true,
     "category": "야근회복·꿀잠",
-    "badge": "거북목·승모근 정착템",
+    "badge": "🔥 실시간 조회수 급상승 1위",
     "title": "홈플래닛 더 가벼운 무선 온열 목 어깨 마사지기 (V-NM01)",
     "comment": "무선이라 충전 깜빡하면 못 쓰는 게 단점인데 자기 전에 온열 켜고 15분만 목에 걸고 있으면 돌덩이 같던 승모근이 말랑하게 풀림;;",
     "price": "27,890원",
     "link": "https://link.coupang.com/a/hZuDhZXIES",
     "image": "https://thumbnail5.coupangcdn.com/thumbnails/remote/492x492ex/image/1025_amir_coupang_oct_80k/0d45/e30a47e1d8f7ab55dfcc8f3d0c59218a74345ecf0168017bd2cdeefc5ca8.jpg",
-    "updated_at": "2026-10-20"
+    "updated_at": "2026-10-20",
+    "orig_badge": "거북목·승모근 정착템"
   },
   {
     "no": 9,
@@ -132,7 +133,7 @@
   {
     "no": 11,
     "subId": "pick11",
-    "is_top": true,
+    "is_top": false,
     "category": "야근회복·꿀잠",
     "badge": "자취방 도시가스비 방어템",
     "title": "한일의료기 전자파 안심 워셔블 탄소매트 싱글 (라인체크그레이)",

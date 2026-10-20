@@ -414,7 +414,7 @@
         if (!q) return true;
         if (String(it.no) === q.replace("#", "").replace("번", "")) return true;
         return (it.title + " " + it.comment + " " + it.category + " " + it.badge).toLowerCase().includes(q);
-      });
+      }).sort((a, b) => (b.is_top ? 1 : 0) - (a.is_top ? 1 : 0) || a.no - b.no);
 
       listEl.innerHTML = filtered.map(it => `
         <a class="item-card ${it.is_top ? 'top-pick' : ''}" href="${it.link}" target="_blank" rel="noopener" onclick='trackClick(${JSON.stringify({no: it.no, subId: it.subId || ("pick" + String(it.no).padStart(2, "0")), title: it.title})})'>
