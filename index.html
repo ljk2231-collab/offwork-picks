@@ -345,25 +345,25 @@
       <div class="section-title">⚡ 자취 직장인 매일 출석하는 쿠팡 특가존</div>
       <div class="section-sub">오늘만 열리는 반값 할인 & 퇴근 전 시키는 새벽배송 특가</div>
       <div class="quick-links">
-        <a class="quick-link-card" href="https://link.coupang.com/a/hX3w4Uapyu" target="_blank" rel="noopener" onclick="trackClick({no:'GOLDBOX', title:'골드박스 오늘의특가'})">
+        <a class="quick-link-card" href="https://link.coupang.com/a/hZuDlHsjZI" target="_blank" rel="noopener" onclick="trackClick({no:'GOLDBOX', subId:'goldbox', title:'골드박스 오늘의특가'})">
           <span class="ql-emoji">🔥</span>
           <span class="ql-title">골드박스</span>
           <span class="ql-desc">오늘만 초특가</span>
         </a>
-        <a class="quick-link-card" href="https://link.coupang.com/a/hX3w5lyMV2" target="_blank" rel="noopener" onclick="trackClick({no:'FRESH', title:'로켓프레시 새벽배송'})">
+        <a class="quick-link-card" href="https://link.coupang.com/a/hZuDmd6bW8" target="_blank" rel="noopener" onclick="trackClick({no:'FRESH', subId:'fresh', title:'로켓프레시 새벽배송'})">
           <span class="ql-emoji">🥗</span>
           <span class="ql-title">로켓프레시</span>
           <span class="ql-desc">자취식단·야식</span>
         </a>
-        <a class="quick-link-card" href="https://link.coupang.com/a/hX3w5Hiz1x" target="_blank" rel="noopener" onclick="trackClick({no:'ROCKET', title:'로켓배송 베스트'})">
+        <a class="quick-link-card" href="https://link.coupang.com/a/hZuDmzkFA4" target="_blank" rel="noopener" onclick="trackClick({no:'ROCKET', subId:'rocket', title:'로켓배송 베스트'})">
           <span class="ql-emoji">🚀</span>
           <span class="ql-title">로켓배송</span>
           <span class="ql-desc">내일 도착 보장</span>
         </a>
       </div>
       <div class="cat-banner-stack">
-        <iframe src="https://ads-partners.coupang.com/widgets.html?id=1040930&template=banner&trackingCode=AF0777828&subId=offwork_picks&width=320&height=100" width="320" height="100" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" title="골드박스 배너"></iframe>
-        <iframe src="https://ads-partners.coupang.com/widgets.html?id=1040931&template=banner&trackingCode=AF0777828&subId=offwork_picks&width=320&height=100" width="320" height="100" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" title="로켓프레시 배너"></iframe>
+        <iframe src="https://ads-partners.coupang.com/widgets.html?id=1040930&template=banner&trackingCode=AF0777828&subId=banner_goldbox&width=320&height=100" width="320" height="100" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" title="골드박스 배너"></iframe>
+        <iframe src="https://ads-partners.coupang.com/widgets.html?id=1040931&template=banner&trackingCode=AF0777828&subId=banner_fresh&width=320&height=100" width="320" height="100" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" title="로켓프레시 배너"></iframe>
       </div>
     </div>
 
@@ -376,12 +376,34 @@
     let ITEMS = [];
     let currentCat = "ALL";
 
+    const TRACK_TOPIC = "offwork_picks_clicks_828_dhlee";
+
+    function sendRemoteEvent(eventType, item) {
+      try {
+        const payload = JSON.stringify({
+          type: eventType,
+          no: item.no || "PV",
+          subId: item.subId || (item.no ? `pick${String(item.no).padStart(2, '0')}` : "pv"),
+          title: item.title || "",
+          ref: document.referrer || "direct",
+          ua: /iPhone|iPad|iPod/i.test(navigator.userAgent) ? "iOS" : (/Android/i.test(navigator.userAgent) ? "Android" : "Web"),
+          ts: new Date().toISOString()
+        });
+        fetch(`https://ntfy.sh/${TRACK_TOPIC}`, {
+          method: "POST",
+          body: payload,
+          keepalive: true
+        }).catch(() => {});
+      } catch (e) {}
+    }
+
     function trackClick(item) {
       try {
         const logs = JSON.parse(localStorage.getItem("offwork_clicks") || "[]");
         logs.push({ no: item.no, title: item.title, ts: new Date().toISOString() });
         localStorage.setItem("offwork_clicks", JSON.stringify(logs.slice(-100)));
       } catch (e) {}
+      sendRemoteEvent("CLICK", item);
     }
 
     function render() {
@@ -395,7 +417,7 @@
       });
 
       listEl.innerHTML = filtered.map(it => `
-        <a class="item-card ${it.is_top ? 'top-pick' : ''}" href="${it.link}" target="_blank" rel="noopener" onclick='trackClick(${JSON.stringify({no: it.no, title: it.title})})'>
+        <a class="item-card ${it.is_top ? 'top-pick' : ''}" href="${it.link}" target="_blank" rel="noopener" onclick='trackClick(${JSON.stringify({no: it.no, subId: it.subId || ("pick" + String(it.no).padStart(2, "0")), title: it.title})})'>
           <div class="card-top">
             <span class="num-badge">#${it.no}번 정착템</span>
             <span class="tag-badge">${it.badge}</span>
@@ -428,6 +450,10 @@
         document.getElementById("searchInput").value = pickNo;
       }
       render();
+      if (!sessionStorage.getItem("offwork_pv_logged")) {
+        sessionStorage.setItem("offwork_pv_logged", "1");
+        sendRemoteEvent("PV", { no: "PV", subId: "pageview", title: pickNo ? `랜딩방문(?no=${pickNo})` : "랜딩방문(전체)" });
+      }
     }
 
     document.getElementById("searchInput").addEventListener("input", render);
