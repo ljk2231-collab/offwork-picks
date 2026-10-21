@@ -93,9 +93,9 @@
   {
     "no": 8,
     "subId": "pick08",
-    "is_top": true,
+    "is_top": false,
     "category": "야근회복·꿀잠",
-    "badge": "🔥 실시간 조회수 급상승 1위",
+    "badge": "거북목·승모근 정착템",
     "title": "홈플래닛 더 가벼운 무선 온열 목 어깨 마사지기 (V-NM01)",
     "comment": "무선이라 충전 깜빡하면 못 쓰는 게 단점인데 자기 전에 온열 켜고 15분만 목에 걸고 있으면 돌덩이 같던 승모근이 말랑하게 풀림;;",
     "price": "27,890원",
@@ -107,15 +107,16 @@
   {
     "no": 9,
     "subId": "pick09",
-    "is_top": false,
+    "is_top": true,
     "category": "피부과할부방어",
-    "badge": "어금니 안쪽 개운템",
+    "badge": "🔥 실시간 조회수 급상승 1위",
     "title": "비타할로 휴대용 무선 구강세정기 물치실 (F5025 화이트)",
     "comment": "처음 쏠 땐 수압 조절 못 해서 거울에 물 다 튀겼는데 입 다물고 1분만 쏴주면 치실 쓸 때처럼 피도 안 나고 어금니 안쪽까지 개운함",
     "price": "24,790원",
     "link": "https://link.coupang.com/a/hZuDiutvOu",
     "image": "https://thumbnail13.coupangcdn.com/thumbnails/remote/492x492ex/image/1025_amir_coupang_oct_80k/f64c/9d8ce847328babee063d6270b77de100f443f15e29c995b1f06666a7edc4.jpg",
-    "updated_at": "2026-10-20"
+    "updated_at": "2026-10-20",
+    "orig_badge": "어금니 안쪽 개운템"
   },
   {
     "no": 10,
