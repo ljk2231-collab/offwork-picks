@@ -134,9 +134,9 @@
   {
     "no": 11,
     "subId": "pick11",
-    "is_top": true,
+    "is_top": false,
     "category": "야근회복·꿀잠",
-    "badge": "🔥 실시간 조회수 급상승 1위",
+    "badge": "자취방 도시가스비 방어템",
     "title": "한일의료기 전자파 안심 워셔블 탄소매트 싱글 (라인체크그레이)",
     "comment": "처음 1~2분은 일반 전기장판처럼 확 뜨거워지진 않는데 자고 일어나도 머리 띵하고 입 마르는 게 아예 없고 물세탁까지 돼서 겨울 내내 여기 누우면 기절함;;",
     "price": "54,900원",
@@ -214,15 +214,16 @@
   {
     "no": 17,
     "subId": "pick17",
-    "is_top": false,
+    "is_top": true,
     "category": "피부과할부방어",
-    "badge": "야근 푸석피부 수면팩 대용템",
+    "badge": "🔥 실시간 조회수 급상승 1위",
     "title": "센텔리안24 타임리버스 제로 마데카 크림 (80ml × 2개)",
     "comment": "초기엔 병풀 특유의 풀 내음이 살짝 낯설 수 있는데 세수하고 이거 하나만 도톰하게 얹고 자면 아침에 화장 밀리는 게 아예 사라짐;;",
     "price": "23,170원",
     "link": "https://link.coupang.com/a/h0mVeyJAuy",
     "image": "https://thumbnail5.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/2025/11/06/11/9/5575bd34-8b40-4236-bd54-2797bfdf2e65.jpg",
-    "updated_at": "2026-10-20"
+    "updated_at": "2026-10-20",
+    "orig_badge": "야근 푸석피부 수면팩 대용템"
   },
   {
     "no": 18,
