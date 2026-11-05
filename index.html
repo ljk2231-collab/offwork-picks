@@ -42,7 +42,7 @@
       display: flex;
       align-items: center;
       gap: 12px;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
     }
     .avatar {
       width: 48px;
@@ -107,6 +107,45 @@
       color: #fff;
       border-color: var(--text);
     }
+    /* URL ?no=N 단독 하이라이트 히어로 섹션 */
+    .pinned-hero {
+      display: none;
+      margin-bottom: 18px;
+      padding: 14px;
+      border-radius: 18px;
+      background: linear-gradient(180deg, #fff3ef 0%, #ffffff 100%);
+      border: 2.5px solid var(--accent);
+      box-shadow: 0 8px 20px rgba(224, 79, 51, 0.14);
+    }
+    .pinned-hero.show {
+      display: block;
+    }
+    .pinned-header {
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--accent);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .pinned-list-divider {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--sub);
+      margin: 14px 2px 10px;
+    }
+    .live-ribbon {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 800;
+      color: #fff;
+      background: linear-gradient(90deg, #e04f33, #ff7452);
+      padding: 3px 9px;
+      border-radius: 999px;
+      margin-bottom: 8px;
+      letter-spacing: -0.2px;
+    }
     .item-list {
       display: flex;
       flex-direction: column;
@@ -135,6 +174,7 @@
       align-items: center;
       justify-content: space-between;
       margin-bottom: 8px;
+      gap: 6px;
     }
     .num-badge {
       font-size: 12px;
@@ -143,6 +183,7 @@
       border-radius: 6px;
       background: #f1ede7;
       color: #3d3934;
+      flex-shrink: 0;
     }
     .item-card.top-pick .num-badge {
       background: var(--accent);
@@ -155,20 +196,61 @@
       background: var(--accent-soft);
       padding: 3px 8px;
       border-radius: 6px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
     .card-body {
       display: flex;
       gap: 12px;
       align-items: center;
     }
-    .thumb {
-      width: 78px;
-      height: 78px;
-      border-radius: 10px;
-      object-fit: cover;
+    /* 썸네일 가장자리 브랜드 로고/텍스트 배너 은폐용 크롭 & 오버레이 래퍼 */
+    .thumb-wrap {
+      width: 82px;
+      height: 82px;
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
       background: #f5f2ed;
       flex-shrink: 0;
       border: 1px solid #f0ece6;
+    }
+    .thumb {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 54%;
+      transform: scale(1.24);
+      transform-origin: center center;
+      display: block;
+    }
+    .thumb-wrap::before {
+      content: "실사용 정착";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 20px;
+      background: linear-gradient(180deg, rgba(31,30,28,0.78) 0%, rgba(31,30,28,0.0) 100%);
+      color: #fff;
+      font-size: 9.5px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+      letter-spacing: -0.3px;
+    }
+    .thumb-wrap::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 16px;
+      background: linear-gradient(0deg, rgba(31,30,28,0.55) 0%, rgba(31,30,28,0.0) 100%);
+      z-index: 2;
     }
     .info {
       flex: 1;
@@ -304,16 +386,19 @@
       <div class="avatar">🌙</div>
       <div class="profile-info">
         <h1>퇴근로그 (@offwork_log) 정착템</h1>
-        <p>5년차 자취 직장인의 내돈내산 삶의 질 수직상승 리스트</p>
+        <p>방금 스레드에 올라온 최신 번호가 맨 위에 표시됩니다</p>
       </div>
     </div>
 
     <div class="search-box">
-      <input type="text" id="searchInput" placeholder="번호(예: 1, 8) 또는 상품명·키워드 검색..." />
+      <input type="text" id="searchInput" placeholder="번호(예: 63, 61, 60) 또는 키워드 검색..." />
     </div>
 
+    <!-- ?no=N 접속 시 최상단 단독 하이라이트 카드 -->
+    <div id="pinnedHero" class="pinned-hero"></div>
+
     <div class="cat-tabs" id="catTabs">
-      <button class="cat-btn active" data-cat="ALL">전체</button>
+      <button class="cat-btn active" data-cat="ALL">전체 (최신순)</button>
       <button class="cat-btn" data-cat="야근회복·꿀잠">야근회복·꿀잠</button>
       <button class="cat-btn" data-cat="칼퇴·데스크템">칼퇴·데스크템</button>
       <button class="cat-btn" data-cat="퇴근후·야식치트키">퇴근후·야식</button>
@@ -331,7 +416,7 @@
       </div>
     </div>
 
-    <!-- 2. 다이나믹 배너 (고객 관심 기반 맞춤 추천) -->
+    <!-- 2. 다이나믹 배너 -->
     <div class="affiliate-section">
       <div class="section-title">🎁 내 관심사 맞춤 쿠팡 추천템</div>
       <div class="section-sub">최근 눈여겨본 상품과 자취 직장인 인기 베스트셀러 모음</div>
@@ -340,7 +425,7 @@
       </div>
     </div>
 
-    <!-- 3. 카테고리 특가 바로가기 & 공식 카테고리 배너 -->
+    <!-- 3. 카테고리 특가 바로가기 -->
     <div class="affiliate-section">
       <div class="section-title">⚡ 자취 직장인 매일 출석하는 쿠팡 특가존</div>
       <div class="section-sub">오늘만 열리는 반값 할인 & 퇴근 전 시키는 새벽배송 특가</div>
@@ -363,7 +448,7 @@
       </div>
       <div class="cat-banner-stack">
         <iframe src="https://ads-partners.coupang.com/widgets.html?id=1040930&template=banner&trackingCode=AF0777828&subId=banner_goldbox&width=320&height=100" width="320" height="100" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" title="골드박스 배너"></iframe>
-        <iframe src="https://ads-partners.coupang.com/widgets.html?id=1040931&template=banner&trackingCode=AF0777828&subId=banner_fresh&width=320&height=100" width="320" height="100" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" title="로켓프레시 배너"></iframe>
+        <iframe src="https://ads-partners.coupang.com/widgets.html?id=1040931&template=banner&trackingCode=AF0777828&subId=banner_fresh&width=320" height="100" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" title="로켓프레시 배너"></iframe>
       </div>
     </div>
 
@@ -375,6 +460,7 @@
   <script>
     let ITEMS = [];
     let currentCat = "ALL";
+    let pinnedNo = null;
 
     const TRACK_TOPIC = "offwork_picks_clicks_828_dhlee";
 
@@ -406,35 +492,83 @@
       sendRemoteEvent("CLICK", item);
     }
 
-    function render() {
-      const q = document.getElementById("searchInput").value.trim().toLowerCase();
-      const listEl = document.getElementById("itemList");
-      const filtered = ITEMS.filter(it => {
-        if (currentCat !== "ALL" && it.category !== currentCat) return false;
-        if (!q) return true;
-        if (String(it.no) === q.replace("#", "").replace("번", "")) return true;
-        return (it.title + " " + it.comment + " " + it.category + " " + it.badge).toLowerCase().includes(q);
-      }).sort((a, b) => (b.is_top ? 1 : 0) - (a.is_top ? 1 : 0) || a.no - b.no);
-
-      listEl.innerHTML = filtered.map(it => `
-        <a class="item-card ${it.is_top ? 'top-pick' : ''}" href="${it.link}" target="_blank" rel="noopener" onclick='trackClick(${JSON.stringify({no: it.no, subId: it.subId || ("pick" + String(it.no).padStart(2, "0")), title: it.title})})'>
+    function buildCardHtml(it, isLiveTop3) {
+      const clickData = JSON.stringify({
+        no: it.no,
+        subId: it.subId || ("pick" + String(it.no).padStart(2, "0")),
+        title: it.title
+      }).replace(/'/g, "&#39;");
+      const topClass = (isLiveTop3 || it.is_top) ? "top-pick" : "";
+      const liveBanner = isLiveTop3
+        ? `<div class="live-ribbon">🔥 방금 스레드에 올라온 실시간 정착템</div>`
+        : "";
+      return `
+        <a class="item-card ${topClass}" href="${it.link}" target="_blank" rel="noopener" onclick='trackClick(${clickData})'>
+          ${liveBanner}
           <div class="card-top">
-            <span class="num-badge">#${it.no}번 정착템</span>
+            <span class="num-badge">[${it.no}번] 정착템</span>
             <span class="tag-badge">${it.badge}</span>
           </div>
           <div class="card-body">
-            <img class="thumb" src="${it.image}" alt="${it.title}" loading="lazy" />
+            <div class="thumb-wrap">
+              <img class="thumb" src="${it.image}" alt="[${it.no}번] 정착템" loading="lazy" />
+            </div>
             <div class="info">
               <div class="title">${it.title}</div>
               <div class="comment">${it.comment}</div>
               <div class="cta-row">
                 <span class="price">로켓배송 ${it.price}</span>
-                <span class="go-btn">쿠팡 바로가기 →</span>
+                <span class="go-btn">쿠팡 최저가 보기 →</span>
               </div>
             </div>
           </div>
         </a>
-      `).join("");
+      `;
+    }
+
+    function renderPinnedHero() {
+      const heroEl = document.getElementById("pinnedHero");
+      if (!pinnedNo) {
+        heroEl.classList.remove("show");
+        heroEl.innerHTML = "";
+        return;
+      }
+      const target = ITEMS.find(it => String(it.no) === String(pinnedNo));
+      if (!target) {
+        heroEl.classList.remove("show");
+        heroEl.innerHTML = "";
+        return;
+      }
+      heroEl.classList.add("show");
+      heroEl.innerHTML = `
+        <div class="pinned-header">
+          <span>👇 방금 보신 #${target.no}번 정착템 바로가기</span>
+          <span style="font-size:11.5px; color:#6e6a63; font-weight:600;">터치 시 쿠팡 이동</span>
+        </div>
+        ${buildCardHtml(target, false)}
+      `;
+    }
+
+    function render() {
+      const q = document.getElementById("searchInput").value.trim().toLowerCase();
+      const listEl = document.getElementById("itemList");
+
+      // 최신 스레드 게시 순서(sort_priority 내림차순 -> 번호 b.no - a.no 내림차순) 정렬
+      const sorted = [...ITEMS].sort((a, b) => {
+        const pa = typeof a.sort_priority === "number" ? a.sort_priority : a.no;
+        const pb = typeof b.sort_priority === "number" ? b.sort_priority : b.no;
+        return pb - pa || b.no - a.no;
+      });
+
+      const filtered = sorted.filter(it => {
+        if (currentCat !== "ALL" && it.category !== currentCat) return false;
+        if (!q) return true;
+        const cleanQ = q.replace("#", "").replace("[", "").replace("]", "").replace("번", "");
+        if (String(it.no) === cleanQ) return true;
+        return (it.title + " " + it.comment + " " + it.category + " " + it.badge).toLowerCase().includes(q);
+      });
+
+      listEl.innerHTML = filtered.map((it, idx) => buildCardHtml(it, !q && currentCat === "ALL" && idx < 3)).join("");
     }
 
     async function init() {
@@ -445,14 +579,15 @@
         ITEMS = [];
       }
       const params = new URLSearchParams(location.search);
-      const pickNo = params.get("no");
-      if (pickNo) {
-        document.getElementById("searchInput").value = pickNo;
+      const rawNo = params.get("no");
+      if (rawNo) {
+        pinnedNo = rawNo.replace(/[^0-9]/g, "");
       }
+      renderPinnedHero();
       render();
       if (!sessionStorage.getItem("offwork_pv_logged")) {
         sessionStorage.setItem("offwork_pv_logged", "1");
-        sendRemoteEvent("PV", { no: "PV", subId: "pageview", title: pickNo ? `랜딩방문(?no=${pickNo})` : "랜딩방문(전체)" });
+        sendRemoteEvent("PV", { no: "PV", subId: "pageview", title: pinnedNo ? `랜딩방문(?no=${pinnedNo})` : "랜딩방문(전체)" });
       }
     }
 
