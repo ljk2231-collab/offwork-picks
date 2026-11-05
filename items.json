@@ -1,8 +1,23 @@
 [
   {
+    "no": 62,
+    "subId": "pick62",
+    "is_top": true,
+    "category": "야근회복·꿀잠",
+    "badge": "변기솔통 구정물 해방 원터치 위생클리너",
+    "orig_badge": "변기솔통 구정물 해방 원터치 위생클리너",
+    "title": "고인 물 찝찝한 솔통 버리고 세제 압축된 파란 패드로 닦은 뒤 버튼 밀어 바로 내리는 욕실 집게",
+    "comment": "변기 수압이 약한 곳에선 패드가 완전히 풀릴 때까지 10초 정도 기다려야 하지만 더러운 솔통 볼 일 없이 손 안 대고 버려 속 시원함",
+    "price": "11,540원",
+    "link": "https://link.coupang.com/a/ipgk8ja0o8",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/vendor_inventory/image_audit/advertiser/1779426381457/55c04178-ee66-466a-b4f8-098800df7960.png",
+    "updated_at": "2026-11-05",
+    "sort_priority": 1020
+  },
+  {
     "no": 63,
     "subId": "pick63",
-    "is_top": false,
+    "is_top": true,
     "category": "칼퇴·데스크템",
     "badge": "오후 4시 두피열·승모근 순삭 8발 케어템",
     "orig_badge": "오후 4시 두피열·승모근 순삭 8발 케어템",
@@ -17,7 +32,7 @@
   {
     "no": 61,
     "subId": "pick61",
-    "is_top": false,
+    "is_top": true,
     "category": "야근회복·꿀잠",
     "badge": "젖은수세미 쉰내 없애는 열탕소독 솔장갑",
     "orig_badge": "젖은수세미 쉰내 없애는 열탕소독 솔장갑",
@@ -240,21 +255,6 @@
     "sort_priority": 64
   },
   {
-    "no": 62,
-    "subId": "pick62",
-    "is_top": false,
-    "category": "야근회복·꿀잠",
-    "badge": "변기솔통 구정물 해방 원터치 위생클리너",
-    "orig_badge": "변기솔통 구정물 해방 원터치 위생클리너",
-    "title": "고인 물 찝찝한 솔통 버리고 세제 압축된 파란 패드로 닦은 뒤 버튼 밀어 바로 내리는 욕실 집게",
-    "comment": "변기 수압이 약한 곳에선 패드가 완전히 풀릴 때까지 10초 정도 기다려야 하지만 더러운 솔통 볼 일 없이 손 안 대고 버려 속 시원함",
-    "price": "11,540원",
-    "link": "https://link.coupang.com/a/ipgk8ja0o8",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/vendor_inventory/image_audit/advertiser/1779426381457/55c04178-ee66-466a-b4f8-098800df7960.png",
-    "updated_at": "2026-11-04",
-    "sort_priority": 62
-  },
-  {
     "no": 48,
     "subId": "pick48",
     "is_top": false,
@@ -437,7 +437,7 @@
   {
     "no": 36,
     "subId": "pick36",
-    "is_top": true,
+    "is_top": false,
     "category": "칼퇴·데스크템",
     "badge": "🔥 실시간 조회수 급상승 1위",
     "orig_badge": "바르자마자 키보드 지문제로 보습템",
