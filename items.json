@@ -1,8 +1,23 @@
 [
   {
+    "no": 65,
+    "subId": "pick65",
+    "is_top": true,
+    "category": "칼퇴·데스크템",
+    "badge": "🔥 실시간 조회수 급상승 1위",
+    "orig_badge": "히터바람 치마·니트 달라붙음 봉인템",
+    "title": "복도 걸을 때 스타킹에 휘감기는 치마 안쪽에 두 번 칙칙 뿌려 핏 살려주는 휴대용 정전기 케어 (8개)",
+    "comment": "한 번에 너무 가까이 많이 뿌리면 옷감이 살짝 축축해질 수 있어 한 뼘 떨어져 쏴야 하지만 파우치에 쏙 들어가 겨울 내내 구원받음",
+    "price": "8,200원",
+    "link": "https://link.coupang.com/a/ip1tM63Y5c",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/eb32fd68-579d-40d8-86f5-62bcc994437f3518556913386298652.png",
+    "updated_at": "2026-11-06",
+    "sort_priority": 1040
+  },
+  {
     "no": 64,
     "subId": "pick64",
-    "is_top": false,
+    "is_top": true,
     "category": "야근회복·꿀잠",
     "badge": "욕실 악취·날파리 원천차단 물밀착 원반",
     "orig_badge": "욕실 악취·날파리 원천차단 물밀착 원반",
@@ -17,7 +32,7 @@
   {
     "no": 62,
     "subId": "pick62",
-    "is_top": false,
+    "is_top": true,
     "category": "야근회복·꿀잠",
     "badge": "변기솔통 구정물 해방 원터치 위생클리너",
     "orig_badge": "변기솔통 구정물 해방 원터치 위생클리너",
@@ -283,21 +298,6 @@
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/227860925693396-333acd90-1d29-4cb5-8e13-e37c8724965d.png",
     "updated_at": "2026-11-05",
     "sort_priority": 66
-  },
-  {
-    "no": 65,
-    "subId": "pick65",
-    "is_top": true,
-    "category": "칼퇴·데스크템",
-    "badge": "🔥 실시간 조회수 급상승 1위",
-    "orig_badge": "히터바람 치마·니트 달라붙음 봉인템",
-    "title": "복도 걸을 때 스타킹에 휘감기는 치마 안쪽에 두 번 칙칙 뿌려 핏 살려주는 휴대용 정전기 케어 (8개)",
-    "comment": "한 번에 너무 가까이 많이 뿌리면 옷감이 살짝 축축해질 수 있어 한 뼘 떨어져 쏴야 하지만 파우치에 쏙 들어가 겨울 내내 구원받음",
-    "price": "8,200원",
-    "link": "https://link.coupang.com/a/ip1tM63Y5c",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/eb32fd68-579d-40d8-86f5-62bcc994437f3518556913386298652.png",
-    "updated_at": "2026-11-05",
-    "sort_priority": 65
   },
   {
     "no": 48,
