@@ -973,5 +973,50 @@
     "updated_at": "2026-10-20",
     "orig_badge": "안구건조·눈피로 순삭템",
     "sort_priority": 1
+  },
+  {
+    "no": 66,
+    "subId": "pick66",
+    "is_top": false,
+    "category": "피부과할부방어",
+    "badge": "스타킹 올나감 끝내는 마른발 뒤꿈치 주걱",
+    "orig_badge": "스타킹 올나감 끝내는 마른발 뒤꿈치 주걱",
+    "title": "물에 불릴 필요 없이 마른 발뒤꿈치에 쓱 문지르면 하얀 굳은살만 갈려 나오는 양면 스텐 케어",
+    "comment": "절삭력이 워낙 좋아 힘줘서 밀면 생살이 따가울 수 있어 살살 문질러야 하지만 물로만 헹궈 반영구적으로 써서 정착함",
+    "price": "17,900원",
+    "link": "https://link.coupang.com/a/iqVg8MGJ8m",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/227860925693396-333acd90-1d29-4cb5-8e13-e37c8724965d.png",
+    "updated_at": "2026-11-05",
+    "sort_priority": 66
+  },
+  {
+    "no": 67,
+    "subId": "pick67",
+    "is_top": false,
+    "category": "야근회복·꿀잠",
+    "badge": "수건 걸레쉰내·검은김가루 박멸 통세척알",
+    "orig_badge": "수건 걸레쉰내·검은김가루 박멸 통세척알",
+    "title": "가루 계량 없이 빈 세탁기 통에 보라색 알맹이 하나 던져 돌리면 숨은 물때 빼내는 고농축 세정알 (10개)",
+    "comment": "찬물에선 겉 비닐이 늦게 녹을 수 있어 미온수로 돌려야 하지만 독한 락스 냄새 없이 은은한 향만 남아 매달 한 알씩 씀",
+    "price": "10,500원",
+    "link": "https://link.coupang.com/a/iqVg9ZCNhc",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/2024/01/15/16/3/faaeb4a0-3db4-4582-966d-1d1a46d2deb5.jpg",
+    "updated_at": "2026-11-05",
+    "sort_priority": 67
+  },
+  {
+    "no": 68,
+    "subId": "pick68",
+    "is_top": false,
+    "category": "야근회복·꿀잠",
+    "badge": "새벽 창틀 웃풍·찬바람 칼차단 투명막",
+    "orig_badge": "새벽 창틀 웃풍·찬바람 칼차단 투명막",
+    "title": "창문 틀 가장자리에 찍찍이 테이프 두르고 팽팽하게 붙여 냉기 막아주는 벨크로 투명 차단막",
+    "comment": "혼자서 각 맞춰 팽팽하게 붙일 때 처음 10분은 팔이 좀 아픈데 환기할 때 살짝 떼었다 다시 붙일 수 있어 겨울 내내 든든함",
+    "price": "15,320원",
+    "link": "https://link.coupang.com/a/iqVhaMiaWa",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/332503931794484-49256978-14ce-4fae-9aec-e589ba325fc5.png",
+    "updated_at": "2026-11-05",
+    "sort_priority": 68
   }
 ]
