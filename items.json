@@ -11,13 +11,13 @@
     "price": "7,700원",
     "link": "https://link.coupang.com/a/ipgk8R5Fo4",
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/vendor_inventory/6cf5/4623caef36586084245d396026c0d152a5f7ed250503b2951d80b637be86.png",
-    "updated_at": "2026-11-04",
-    "sort_priority": 1000
+    "updated_at": "2026-11-05",
+    "sort_priority": 1010
   },
   {
     "no": 61,
     "subId": "pick61",
-    "is_top": false,
+    "is_top": true,
     "category": "야근회복·꿀잠",
     "badge": "젖은수세미 쉰내 없애는 열탕소독 솔장갑",
     "orig_badge": "젖은수세미 쉰내 없애는 열탕소독 솔장갑",
@@ -32,7 +32,7 @@
   {
     "no": 60,
     "subId": "pick60",
-    "is_top": false,
+    "is_top": true,
     "category": "퇴근후·야식치트키",
     "badge": "랩환경호르몬 걱정없는 렌지 3분 스팀통",
     "orig_badge": "랩환경호르몬 걱정없는 렌지 3분 스팀통",
