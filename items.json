@@ -1,5 +1,20 @@
 [
   {
+    "no": 43,
+    "subId": "pick43",
+    "is_top": true,
+    "category": "칼퇴·데스크템",
+    "badge": "커피쏟아도 물티슈 1초컷 방한실내화",
+    "orig_badge": "커피쏟아도 물티슈 1초컷 방한실내화",
+    "title": "겉면 방수 패딩이라 음료 튀어도 쓱 닦이고 안쪽은 털이 꽉 찬 무소음 쿠션 실내화",
+    "comment": "안쪽 털이 발등까지 빽빽해서 난방 세게 틀면 발에 땀이 살짝 날 수 있지만 바닥 쿠션이 두꺼워 복도 발소리와 발 시림이 사라짐",
+    "price": "11,830원",
+    "link": "https://link.coupang.com/a/igXODXRtaC",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/12197694146847-a850cd66-aaab-430d-a36e-e1e995f51b40.jpg",
+    "updated_at": "2026-11-06",
+    "sort_priority": 1070
+  },
+  {
     "no": 60,
     "subId": "pick60",
     "is_top": true,
@@ -32,7 +47,7 @@
   {
     "no": 65,
     "subId": "pick65",
-    "is_top": true,
+    "is_top": false,
     "category": "칼퇴·데스크템",
     "badge": "히터바람 치마·니트 달라붙음 봉인템",
     "orig_badge": "히터바람 치마·니트 달라붙음 봉인템",
@@ -403,21 +418,6 @@
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/vendor_inventory/5fb7/c308cefe809ce3c9b4e4629346d7ab920f26134e54318737d8a3b534a196.jpg",
     "updated_at": "2026-10-31",
     "sort_priority": 44
-  },
-  {
-    "no": 43,
-    "subId": "pick43",
-    "is_top": false,
-    "category": "칼퇴·데스크템",
-    "badge": "커피쏟아도 물티슈 1초컷 방한실내화",
-    "orig_badge": "커피쏟아도 물티슈 1초컷 방한실내화",
-    "title": "겉면 방수 패딩이라 음료 튀어도 쓱 닦이고 안쪽은 털이 꽉 찬 무소음 쿠션 실내화",
-    "comment": "안쪽 털이 발등까지 빽빽해서 난방 세게 틀면 발에 땀이 살짝 날 수 있지만 바닥 쿠션이 두꺼워 복도 발소리와 발 시림이 사라짐",
-    "price": "11,830원",
-    "link": "https://link.coupang.com/a/igXODXRtaC",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/12197694146847-a850cd66-aaab-430d-a36e-e1e995f51b40.jpg",
-    "updated_at": "2026-10-30",
-    "sort_priority": 43
   },
   {
     "no": 42,
