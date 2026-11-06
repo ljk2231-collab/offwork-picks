@@ -1,5 +1,20 @@
 [
   {
+    "no": 67,
+    "subId": "pick67",
+    "is_top": true,
+    "category": "야근회복·꿀잠",
+    "badge": "수건 걸레쉰내·검은김가루 박멸 보라색 세탁조 알맹이",
+    "orig_badge": "수건 걸레쉰내·검은김가루 박멸 보라색 세탁조 알맹이",
+    "title": "가루 계량 없이 빈 세탁기 통에 하나 던져 돌리면 숨은 물때 빼내는 보라색 세탁조 알맹이 (10개)",
+    "comment": "찬물에선 겉 비닐이 늦게 녹을 수 있어 미온수로 돌려야 하지만 독한 락스 냄새 없이 은은한 향만 남아 매달 한 알씩 씀",
+    "price": "10,500원",
+    "link": "https://link.coupang.com/a/iqVg9ZCNhc",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/2024/01/15/16/3/faaeb4a0-3db4-4582-966d-1d1a46d2deb5.jpg",
+    "updated_at": "2026-11-06",
+    "sort_priority": 1080
+  },
+  {
     "no": 43,
     "subId": "pick43",
     "is_top": true,
@@ -32,7 +47,7 @@
   {
     "no": 63,
     "subId": "pick63",
-    "is_top": true,
+    "is_top": false,
     "category": "칼퇴·데스크템",
     "badge": "오후 4시 두피열·승모근 순삭 8발 탄성 헤드케어",
     "orig_badge": "오후 4시 두피열·승모근 순삭 8발 탄성 헤드케어",
@@ -313,21 +328,6 @@
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/332503931794484-49256978-14ce-4fae-9aec-e589ba325fc5.png",
     "updated_at": "2026-11-05",
     "sort_priority": 68
-  },
-  {
-    "no": 67,
-    "subId": "pick67",
-    "is_top": false,
-    "category": "야근회복·꿀잠",
-    "badge": "수건 걸레쉰내·검은김가루 박멸 보라색 세탁조 알맹이",
-    "orig_badge": "수건 걸레쉰내·검은김가루 박멸 보라색 세탁조 알맹이",
-    "title": "가루 계량 없이 빈 세탁기 통에 하나 던져 돌리면 숨은 물때 빼내는 보라색 세탁조 알맹이 (10개)",
-    "comment": "찬물에선 겉 비닐이 늦게 녹을 수 있어 미온수로 돌려야 하지만 독한 락스 냄새 없이 은은한 향만 남아 매달 한 알씩 씀",
-    "price": "10,500원",
-    "link": "https://link.coupang.com/a/iqVg9ZCNhc",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/2024/01/15/16/3/faaeb4a0-3db4-4582-966d-1d1a46d2deb5.jpg",
-    "updated_at": "2026-11-05",
-    "sort_priority": 67
   },
   {
     "no": 66,
