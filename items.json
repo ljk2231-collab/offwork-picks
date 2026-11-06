@@ -1,8 +1,23 @@
 [
   {
+    "no": 67,
+    "subId": "pick67",
+    "is_top": true,
+    "category": "야근회복·꿀잠",
+    "badge": "수건 걸레쉰내·검은김가루 박멸 보라색 세탁조 알맹이",
+    "orig_badge": "수건 걸레쉰내·검은김가루 박멸 보라색 세탁조 알맹이",
+    "title": "가루 계량 없이 빈 세탁기 통에 하나 던져 돌리면 숨은 물때 빼내는 보라색 세탁조 알맹이 (10개)",
+    "comment": "찬물에선 겉 비닐이 늦게 녹을 수 있어 미온수로 돌려야 하지만 독한 락스 냄새 없이 은은한 향만 남아 매달 한 알씩 씀",
+    "price": "10,500원",
+    "link": "https://link.coupang.com/a/iqVg9ZCNhc",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/2024/01/15/16/3/faaeb4a0-3db4-4582-966d-1d1a46d2deb5.jpg",
+    "updated_at": "2026-11-06",
+    "sort_priority": 1100
+  },
+  {
     "no": 66,
     "subId": "pick66",
-    "is_top": false,
+    "is_top": true,
     "category": "피부과할부방어",
     "badge": "스타킹 올나감 끝내는 마른발 뒤꿈치 주걱",
     "orig_badge": "스타킹 올나감 끝내는 마른발 뒤꿈치 주걱",
@@ -15,24 +30,9 @@
     "sort_priority": 1090
   },
   {
-    "no": 67,
-    "subId": "pick67",
-    "is_top": false,
-    "category": "야근회복·꿀잠",
-    "badge": "수건 걸레쉰내·검은김가루 박멸 보라색 세탁조 알맹이",
-    "orig_badge": "수건 걸레쉰내·검은김가루 박멸 보라색 세탁조 알맹이",
-    "title": "가루 계량 없이 빈 세탁기 통에 하나 던져 돌리면 숨은 물때 빼내는 보라색 세탁조 알맹이 (10개)",
-    "comment": "찬물에선 겉 비닐이 늦게 녹을 수 있어 미온수로 돌려야 하지만 독한 락스 냄새 없이 은은한 향만 남아 매달 한 알씩 씀",
-    "price": "10,500원",
-    "link": "https://link.coupang.com/a/iqVg9ZCNhc",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/2024/01/15/16/3/faaeb4a0-3db4-4582-966d-1d1a46d2deb5.jpg",
-    "updated_at": "2026-11-06",
-    "sort_priority": 1080
-  },
-  {
     "no": 43,
     "subId": "pick43",
-    "is_top": false,
+    "is_top": true,
     "category": "칼퇴·데스크템",
     "badge": "커피쏟아도 물티슈 1초컷 방한실내화",
     "orig_badge": "커피쏟아도 물티슈 1초컷 방한실내화",
@@ -47,7 +47,7 @@
   {
     "no": 60,
     "subId": "pick60",
-    "is_top": true,
+    "is_top": false,
     "category": "퇴근후·야식치트키",
     "badge": "🔥 실시간 조회수 급상승 1위",
     "orig_badge": "랩환경호르몬 걱정없는 렌지 3분 스팀통",
