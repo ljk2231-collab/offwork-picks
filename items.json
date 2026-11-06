@@ -1,8 +1,23 @@
 [
   {
+    "no": 71,
+    "subId": "pick71",
+    "is_top": true,
+    "category": "야근회복·꿀잠",
+    "badge": "흰옷·청바지 막 섞어 빨아도 물듦 없는 빨래종이",
+    "orig_badge": "흰옷·청바지 막 섞어 빨아도 물듦 없는 빨래종이",
+    "title": "분리 세탁할 필요 없이 빨래할 때 두 장 같이 넣으면 빠진 물감만 시커멓게 빨아들이는 벌집 흡수 종이 (400매)",
+    "comment": "처음 빠는 새 청바지는 물 빠짐이 심해 서너 장씩 넣어야 하지만 흰 블라우스랑 색깔 옷을 한꺼번에 돌려도 이염 걱정이 전혀 없음",
+    "price": "17,440원",
+    "link": "https://link.coupang.com/a/isAhRQsSyq",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/c37abd97-3b2e-4c0e-a3f6-123449751aec1505313217123882883.png",
+    "updated_at": "2026-11-07",
+    "sort_priority": 1120
+  },
+  {
     "no": 70,
     "subId": "pick70",
-    "is_top": false,
+    "is_top": true,
     "category": "야근회복·꿀잠",
     "badge": "샤워중 발목 구정물·하수구 악취 뚫어주는 노란 통 배수구 케어액",
     "orig_badge": "샤워중 발목 구정물·하수구 악취 뚫어주는 노란 통 배수구 케어액",
@@ -17,7 +32,7 @@
   {
     "no": 67,
     "subId": "pick67",
-    "is_top": false,
+    "is_top": true,
     "category": "야근회복·꿀잠",
     "badge": "수건 걸레쉰내·검은김가루 박멸 보라색 세탁조 알맹이",
     "orig_badge": "수건 걸레쉰내·검은김가루 박멸 보라색 세탁조 알맹이",
@@ -62,7 +77,7 @@
   {
     "no": 60,
     "subId": "pick60",
-    "is_top": true,
+    "is_top": false,
     "category": "퇴근후·야식치트키",
     "badge": "🔥 실시간 조회수 급상승 1위",
     "orig_badge": "랩환경호르몬 걱정없는 렌지 3분 스팀통",
@@ -388,21 +403,6 @@
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/2023/09/27/17/7/cbccf0c3-c3fe-4578-9c00-e8f63ef8447c.jpg",
     "updated_at": "2026-11-06",
     "sort_priority": 72
-  },
-  {
-    "no": 71,
-    "subId": "pick71",
-    "is_top": false,
-    "category": "야근회복·꿀잠",
-    "badge": "흰옷·청바지 막 섞어 빨아도 물듦 없는 빨래종이",
-    "orig_badge": "흰옷·청바지 막 섞어 빨아도 물듦 없는 빨래종이",
-    "title": "분리 세탁할 필요 없이 빨래할 때 두 장 같이 넣으면 빠진 물감만 시커멓게 빨아들이는 벌집 흡수 종이 (400매)",
-    "comment": "처음 빠는 새 청바지는 물 빠짐이 심해 서너 장씩 넣어야 하지만 흰 블라우스랑 색깔 옷을 한꺼번에 돌려도 이염 걱정이 전혀 없음",
-    "price": "17,440원",
-    "link": "https://link.coupang.com/a/isAhRQsSyq",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/c37abd97-3b2e-4c0e-a3f6-123449751aec1505313217123882883.png",
-    "updated_at": "2026-11-06",
-    "sort_priority": 71
   },
   {
     "no": 69,
