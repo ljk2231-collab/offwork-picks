@@ -1,5 +1,20 @@
 [
   {
+    "no": 66,
+    "subId": "pick66",
+    "is_top": true,
+    "category": "피부과할부방어",
+    "badge": "스타킹 올나감 끝내는 마른발 뒤꿈치 주걱",
+    "orig_badge": "스타킹 올나감 끝내는 마른발 뒤꿈치 주걱",
+    "title": "물에 불릴 필요 없이 마른 발뒤꿈치에 쓱 문지르면 하얀 굳은살만 갈려 나오는 양면 스텐 케어",
+    "comment": "절삭력이 워낙 좋아 힘줘서 밀면 생살이 따가울 수 있어 살살 문질러야 하지만 물로만 헹궈 반영구적으로 써서 정착함",
+    "price": "17,900원",
+    "link": "https://link.coupang.com/a/iqVg8MGJ8m",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/227860925693396-333acd90-1d29-4cb5-8e13-e37c8724965d.png",
+    "updated_at": "2026-11-06",
+    "sort_priority": 1090
+  },
+  {
     "no": 67,
     "subId": "pick67",
     "is_top": true,
@@ -32,7 +47,7 @@
   {
     "no": 60,
     "subId": "pick60",
-    "is_top": true,
+    "is_top": false,
     "category": "퇴근후·야식치트키",
     "badge": "🔥 실시간 조회수 급상승 1위",
     "orig_badge": "랩환경호르몬 걱정없는 렌지 3분 스팀통",
@@ -328,21 +343,6 @@
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/332503931794484-49256978-14ce-4fae-9aec-e589ba325fc5.png",
     "updated_at": "2026-11-05",
     "sort_priority": 68
-  },
-  {
-    "no": 66,
-    "subId": "pick66",
-    "is_top": false,
-    "category": "피부과할부방어",
-    "badge": "스타킹 올나감 끝내는 마른발 뒤꿈치 주걱",
-    "orig_badge": "스타킹 올나감 끝내는 마른발 뒤꿈치 주걱",
-    "title": "물에 불릴 필요 없이 마른 발뒤꿈치에 쓱 문지르면 하얀 굳은살만 갈려 나오는 양면 스텐 케어",
-    "comment": "절삭력이 워낙 좋아 힘줘서 밀면 생살이 따가울 수 있어 살살 문질러야 하지만 물로만 헹궈 반영구적으로 써서 정착함",
-    "price": "17,900원",
-    "link": "https://link.coupang.com/a/iqVg8MGJ8m",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/227860925693396-333acd90-1d29-4cb5-8e13-e37c8724965d.png",
-    "updated_at": "2026-11-05",
-    "sort_priority": 66
   },
   {
     "no": 48,
