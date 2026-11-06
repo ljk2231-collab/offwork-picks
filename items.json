@@ -1018,5 +1018,35 @@
     "updated_at": "2026-10-20",
     "orig_badge": "안구건조·눈피로 순삭템",
     "sort_priority": 1
+  },
+  {
+    "no": 69,
+    "subId": "pick69",
+    "is_top": false,
+    "category": "칼퇴·데스크템",
+    "badge": "오후 4시 거북목·승모근 통증 끝내는 눈높이 스탠드",
+    "orig_badge": "오후 4시 거북목·승모근 통증 끝내는 눈높이 스탠드",
+    "title": "고개 숙여 화면 보느라 뻐근한 뒷목을 눈높이에 맞춰 세워주고 바닥 열기까지 빼주는 무흔들림 은색 데스크판",
+    "comment": "관절 힌지가 빡빡해서 처음 높이 맞출 땐 두 손으로 힘줘서 꺾어야 하지만 그만큼 무거운 기기를 올려놓고 독수리 타법을 쳐도 흔들림이나 주저앉음이 전혀 없음",
+    "price": "16,490원",
+    "link": "https://link.coupang.com/a/irGjYqErg4",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/1025_amir_coupang_oct_80k/775a/91bd8d92c0aa9389e54f9c4fe8505e1e391cc69d2fa1ff3f255987623c09.jpg",
+    "updated_at": "2026-11-06",
+    "sort_priority": 69
+  },
+  {
+    "no": 70,
+    "subId": "pick70",
+    "is_top": false,
+    "category": "야근회복·꿀잠",
+    "badge": "샤워중 발목 구정물·하수구 악취 뚫어주는 용해액",
+    "orig_badge": "샤워중 발목 구정물·하수구 악취 뚫어주는 용해액",
+    "title": "솔로 쑤실 필요 없이 자기 전 바닥 구멍에 반 통 부어두면 엉킨 머리카락과 기름때를 녹여 물길 틔워주는 대용량 케어 (1L 5통)",
+    "comment": "부어놓고 최소 30분은 물을 쓰면 안 돼서 자기 전에만 해야 하지만 다음 날 아침 물 틀자마자 소용돌이치며 콸콸 내려가서 속이 다 시원함",
+    "price": "10,920원",
+    "link": "https://link.coupang.com/a/irGl6rgjNk",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/12108872649933-1611bfc7-3a98-4ee3-bc95-8aa16460d4c6.jpg",
+    "updated_at": "2026-11-06",
+    "sort_priority": 70
   }
 ]
