@@ -1,8 +1,23 @@
 [
   {
+    "no": 60,
+    "subId": "pick60",
+    "is_top": true,
+    "category": "퇴근후·야식치트키",
+    "badge": "🔥 실시간 조회수 급상승 1위",
+    "orig_badge": "랩환경호르몬 걱정없는 렌지 3분 스팀통",
+    "title": "비닐랩 안 씌우고 바닥에 물 두 스푼만 부어 돌리면 갓 찐 듯 촉촉해지는 열탕소독 조리통",
+    "comment": "카레나 김치 국물 넣으면 색이 좀 배는데 끓는 물에 통째로 삶아 소독할 수 있는 국내산 소재라 야식 데울 때마다 안심하고 정착함",
+    "price": "23,940원",
+    "link": "https://link.coupang.com/a/iomyO7yndI",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/250816421012330-d92ea2b0-1ad7-4f76-92a9-c7f8779ba602.jpg",
+    "updated_at": "2026-11-06",
+    "sort_priority": 1060
+  },
+  {
     "no": 63,
     "subId": "pick63",
-    "is_top": false,
+    "is_top": true,
     "category": "칼퇴·데스크템",
     "badge": "오후 4시 두피열·승모근 순삭 8발 탄성 헤드케어",
     "orig_badge": "오후 4시 두피열·승모근 순삭 8발 탄성 헤드케어",
@@ -15,24 +30,9 @@
     "sort_priority": 1050
   },
   {
-    "no": 60,
-    "subId": "pick60",
-    "is_top": true,
-    "category": "퇴근후·야식치트키",
-    "badge": "🔥 실시간 조회수 급상승 1위",
-    "orig_badge": "랩환경호르몬 걱정없는 렌지 3분 스팀통",
-    "title": "비닐랩 안 씌우고 바닥에 물 두 스푼만 부어 돌리면 갓 찐 듯 촉촉해지는 열탕소독 조리통",
-    "comment": "카레나 김치 국물 넣으면 색이 좀 배는데 끓는 물에 통째로 삶아 소독할 수 있는 국내산 소재라 야식 데울 때마다 안심하고 정착함",
-    "price": "23,940원",
-    "link": "https://link.coupang.com/a/iomyO7yndI",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/250816421012330-d92ea2b0-1ad7-4f76-92a9-c7f8779ba602.jpg",
-    "updated_at": "2026-11-04",
-    "sort_priority": 1045
-  },
-  {
     "no": 65,
     "subId": "pick65",
-    "is_top": false,
+    "is_top": true,
     "category": "칼퇴·데스크템",
     "badge": "히터바람 치마·니트 달라붙음 봉인템",
     "orig_badge": "히터바람 치마·니트 달라붙음 봉인템",
