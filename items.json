@@ -1,8 +1,23 @@
 [
   {
+    "no": 73,
+    "subId": "pick73",
+    "is_top": true,
+    "category": "칼퇴·데스크템",
+    "badge": "🔥 실시간 조회수 급상승 1위",
+    "orig_badge": "회식 좌식식당 부츠 발냄새 봉인 파란 분무통",
+    "title": "출퇴근할 때 현관에서 부츠와 운동화 안쪽에 두 번 칙칙 뿌려 꿉꿉한 냄새를 상쾌한 비누향으로 바꿔주는 파란 분무통 (2개)",
+    "comment": "신기 직전에 너무 많이 뿌리면 양말 끝이 살짝 시원해져서 외출 5분 전에 미리 뿌려둬야 하지만 좌식 식당 갈 때 발냄새 걱정이 사라짐",
+    "price": "10,450원",
+    "link": "https://link.coupang.com/a/isAhS2PMDk",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/27120876190815-5fc12d9e-11b5-4301-ac91-20fa73b698e1.jpg",
+    "updated_at": "2026-11-07",
+    "sort_priority": 1160
+  },
+  {
     "no": 66,
     "subId": "pick66",
-    "is_top": false,
+    "is_top": true,
     "category": "피부과할부방어",
     "badge": "스타킹 올나감 끝내는 마른발 뒤꿈치 주걱",
     "orig_badge": "스타킹 올나감 끝내는 마른발 뒤꿈치 주걱",
@@ -17,7 +32,7 @@
   {
     "no": 71,
     "subId": "pick71",
-    "is_top": false,
+    "is_top": true,
     "category": "야근회복·꿀잠",
     "badge": "흰옷·청바지 막 섞어 빨아도 물듦 없는 빨래종이",
     "orig_badge": "흰옷·청바지 막 섞어 빨아도 물듦 없는 빨래종이",
@@ -388,21 +403,6 @@
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/934573637270894-6a0b2e9c-171c-4d0a-a0b1-6dd8f169eb04.jpg",
     "updated_at": "2026-11-06",
     "sort_priority": 74
-  },
-  {
-    "no": 73,
-    "subId": "pick73",
-    "is_top": true,
-    "category": "칼퇴·데스크템",
-    "badge": "🔥 실시간 조회수 급상승 1위",
-    "orig_badge": "회식 좌식식당 부츠 발냄새 봉인 파란 분무통",
-    "title": "출퇴근할 때 현관에서 부츠와 운동화 안쪽에 두 번 칙칙 뿌려 꿉꿉한 냄새를 상쾌한 비누향으로 바꿔주는 파란 분무통 (2개)",
-    "comment": "신기 직전에 너무 많이 뿌리면 양말 끝이 살짝 시원해져서 외출 5분 전에 미리 뿌려둬야 하지만 좌식 식당 갈 때 발냄새 걱정이 사라짐",
-    "price": "10,450원",
-    "link": "https://link.coupang.com/a/isAhS2PMDk",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/27120876190815-5fc12d9e-11b5-4301-ac91-20fa73b698e1.jpg",
-    "updated_at": "2026-11-06",
-    "sort_priority": 73
   },
   {
     "no": 72,
