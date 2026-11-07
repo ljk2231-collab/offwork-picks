@@ -1,5 +1,20 @@
 [
   {
+    "no": 60,
+    "subId": "pick60",
+    "is_top": true,
+    "category": "퇴근후·야식치트키",
+    "badge": "🔥 실시간 조회수 급상승 1위",
+    "orig_badge": "랩환경호르몬 걱정없는 렌지 3분 스팀통",
+    "title": "비닐랩 안 씌우고 바닥에 물 두 스푼만 부어 돌리면 갓 찐 듯 촉촉해지는 열탕소독 조리통",
+    "comment": "카레나 김치 국물 넣으면 색이 좀 배는데 끓는 물에 통째로 삶아 소독할 수 있는 국내산 소재라 야식 데울 때마다 안심하고 정착함",
+    "price": "23,940원",
+    "link": "https://link.coupang.com/a/iomyO7yndI",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/250816421012330-d92ea2b0-1ad7-4f76-92a9-c7f8779ba602.jpg",
+    "updated_at": "2026-11-06",
+    "sort_priority": 1060
+  },
+  {
     "no": 71,
     "subId": "pick71",
     "is_top": false,
@@ -75,21 +90,6 @@
     "sort_priority": 1070
   },
   {
-    "no": 60,
-    "subId": "pick60",
-    "is_top": true,
-    "category": "퇴근후·야식치트키",
-    "badge": "🔥 실시간 조회수 급상승 1위",
-    "orig_badge": "랩환경호르몬 걱정없는 렌지 3분 스팀통",
-    "title": "비닐랩 안 씌우고 바닥에 물 두 스푼만 부어 돌리면 갓 찐 듯 촉촉해지는 열탕소독 조리통",
-    "comment": "카레나 김치 국물 넣으면 색이 좀 배는데 끓는 물에 통째로 삶아 소독할 수 있는 국내산 소재라 야식 데울 때마다 안심하고 정착함",
-    "price": "23,940원",
-    "link": "https://link.coupang.com/a/iomyO7yndI",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/250816421012330-d92ea2b0-1ad7-4f76-92a9-c7f8779ba602.jpg",
-    "updated_at": "2026-11-06",
-    "sort_priority": 1060
-  },
-  {
     "no": 63,
     "subId": "pick63",
     "is_top": false,
@@ -163,6 +163,36 @@
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/2024/07/11/11/6/9c668c67-086e-4e5e-a612-ad5919a2681e.jpg",
     "updated_at": "2026-11-04",
     "sort_priority": 990
+  },
+  {
+    "no": 78,
+    "subId": "pick78",
+    "is_top": false,
+    "category": "야근회복·꿀잠",
+    "badge": "무거운 액체통 계량 없이 툭 던져 넣는 4중 젤리볼",
+    "orig_badge": "무거운 액체통 계량 없이 툭 던져 넣는 4중 젤리볼",
+    "title": "손목 아프게 계량할 필요 없이 빨래 밑에 하나 툭 던져 넣으면 땀내 빼주고 보라색 꽃향기 남기는 4중 젤리볼 (52개입)",
+    "comment": "젖은 손으로 집으면 겉 필름이 금방 녹아 꼭 마른 손으로 꺼내야 하지만 세탁기 위에 액체 흘릴 일 없이 한 알로 끝나 세상 편함",
+    "price": "24,200원",
+    "link": "https://link.coupang.com/a/itln4mrstM",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/65703e11-d1e8-4309-9b33-6a17a569ceba554188999262406083.png",
+    "updated_at": "2026-11-07",
+    "sort_priority": 989
+  },
+  {
+    "no": 77,
+    "subId": "pick77",
+    "is_top": false,
+    "category": "야근회복·꿀잠",
+    "badge": "무릎 안 꿇고 바닥 기름기·머리카락 닦아내는 도톰 엠보싱 천",
+    "orig_badge": "무릎 안 꿇고 바닥 기름기·머리카락 닦아내는 도톰 엠보싱 천",
+    "title": "막대에 끼워 서서 한 번 쓱 밀면 찌든 바닥 기름때와 잔머리카락이 시커멓게 다 묻어나오는 도톰 엠보싱 젖은 천 (360매)",
+    "comment": "입구 스티커를 대충 닫아두면 맨 위 장 끝이 살짝 마를 수 있어 꾹 눌러 닫아야 하지만 허리 안 숙이고 매일 새 장으로 뽀송하게 닦아서 정착함",
+    "price": "11,420원",
+    "link": "https://link.coupang.com/a/itlpo3O8fQ",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/9b60cbb1-e729-43b1-8b7d-a6c1905b81964935829557830639737.png",
+    "updated_at": "2026-11-07",
+    "sort_priority": 988
   },
   {
     "no": 59,
