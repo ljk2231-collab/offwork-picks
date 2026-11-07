@@ -1,8 +1,23 @@
 [
   {
+    "no": 74,
+    "subId": "pick74",
+    "is_top": true,
+    "category": "야근회복·꿀잠",
+    "badge": "🔥 실시간 조회수 급상승 1위",
+    "orig_badge": "겨울니트 스파크·실내건조 쉰내 끝내는 생화향 종이",
+    "title": "무거운 액체 통 들 필요 없이 빨래 말릴 때 한 장 넣어두면 따닥거림·달라붙음 막아주고 옷장 가득 생화 향기 남기는 핑크 향기 종이 (120매)",
+    "comment": "처음 상자 뜯었을 땐 향이 꽤 진해서 현관에 두면 방 전체에 다 퍼지지만 겨울 니트 따닥거림이 안 튀고 잔향이 고급스러워 정착함",
+    "price": "10,840원",
+    "link": "https://link.coupang.com/a/isAhVQra56",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/934573637270894-6a0b2e9c-171c-4d0a-a0b1-6dd8f169eb04.jpg",
+    "updated_at": "2026-11-07",
+    "sort_priority": 1190
+  },
+  {
     "no": 75,
     "subId": "pick75",
-    "is_top": false,
+    "is_top": true,
     "category": "피부과할부방어",
     "badge": "세면대 물컹한 덩어리 없애는 1초 구름거품 통",
     "orig_badge": "세면대 물컹한 덩어리 없애는 1초 구름거품 통",
@@ -17,7 +32,7 @@
   {
     "no": 77,
     "subId": "pick77",
-    "is_top": false,
+    "is_top": true,
     "category": "야근회복·꿀잠",
     "badge": "무릎 안 꿇고 바닥 기름기·머리카락 닦아내는 도톰 엠보싱 천",
     "orig_badge": "무릎 안 꿇고 바닥 기름기·머리카락 닦아내는 도톰 엠보싱 천",
@@ -388,21 +403,6 @@
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/254652600128914-5d231f80-d2a1-4992-b6db-c48f3eb547d1.jpg",
     "updated_at": "2026-11-06",
     "sort_priority": 76
-  },
-  {
-    "no": 74,
-    "subId": "pick74",
-    "is_top": true,
-    "category": "야근회복·꿀잠",
-    "badge": "🔥 실시간 조회수 급상승 1위",
-    "orig_badge": "겨울니트 스파크·실내건조 쉰내 끝내는 생화향 종이",
-    "title": "무거운 액체 통 들 필요 없이 빨래 말릴 때 한 장 넣어두면 따닥거림·달라붙음 막아주고 옷장 가득 생화 향기 남기는 핑크 향기 종이 (120매)",
-    "comment": "처음 상자 뜯었을 땐 향이 꽤 진해서 현관에 두면 방 전체에 다 퍼지지만 겨울 니트 따닥거림이 안 튀고 잔향이 고급스러워 정착함",
-    "price": "10,840원",
-    "link": "https://link.coupang.com/a/isAhVQra56",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/934573637270894-6a0b2e9c-171c-4d0a-a0b1-6dd8f169eb04.jpg",
-    "updated_at": "2026-11-06",
-    "sort_priority": 74
   },
   {
     "no": 72,
