@@ -1,8 +1,23 @@
 [
   {
+    "no": 77,
+    "subId": "pick77",
+    "is_top": true,
+    "category": "야근회복·꿀잠",
+    "badge": "🔥 실시간 조회수 급상승 1위",
+    "orig_badge": "무릎 안 꿇고 바닥 기름기·머리카락 닦아내는 도톰 엠보싱 천",
+    "title": "막대에 끼워 서서 한 번 쓱 밀면 찌든 바닥 기름때와 잔머리카락이 시커멓게 다 묻어나오는 도톰 엠보싱 젖은 천 (360매)",
+    "comment": "입구 스티커를 대충 닫아두면 맨 위 장 끝이 살짝 마를 수 있어 꾹 눌러 닫아야 하지만 허리 안 숙이고 매일 새 장으로 뽀송하게 닦아서 정착함",
+    "price": "11,420원",
+    "link": "https://link.coupang.com/a/itlpo3O8fQ",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/9b60cbb1-e729-43b1-8b7d-a6c1905b81964935829557830639737.png",
+    "updated_at": "2026-11-07",
+    "sort_priority": 1170
+  },
+  {
     "no": 73,
     "subId": "pick73",
-    "is_top": false,
+    "is_top": true,
     "category": "칼퇴·데스크템",
     "badge": "회식 좌식식당 부츠 발냄새 봉인 파란 분무통",
     "orig_badge": "회식 좌식식당 부츠 발냄새 봉인 파란 분무통",
@@ -17,7 +32,7 @@
   {
     "no": 66,
     "subId": "pick66",
-    "is_top": false,
+    "is_top": true,
     "category": "피부과할부방어",
     "badge": "스타킹 올나감 끝내는 마른발 뒤꿈치 주걱",
     "orig_badge": "스타킹 올나감 끝내는 마른발 뒤꿈치 주걱",
@@ -343,21 +358,6 @@
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/65703e11-d1e8-4309-9b33-6a17a569ceba554188999262406083.png",
     "updated_at": "2026-11-07",
     "sort_priority": 78
-  },
-  {
-    "no": 77,
-    "subId": "pick77",
-    "is_top": true,
-    "category": "야근회복·꿀잠",
-    "badge": "🔥 실시간 조회수 급상승 1위",
-    "orig_badge": "무릎 안 꿇고 바닥 기름기·머리카락 닦아내는 도톰 엠보싱 천",
-    "title": "막대에 끼워 서서 한 번 쓱 밀면 찌든 바닥 기름때와 잔머리카락이 시커멓게 다 묻어나오는 도톰 엠보싱 젖은 천 (360매)",
-    "comment": "입구 스티커를 대충 닫아두면 맨 위 장 끝이 살짝 마를 수 있어 꾹 눌러 닫아야 하지만 허리 안 숙이고 매일 새 장으로 뽀송하게 닦아서 정착함",
-    "price": "11,420원",
-    "link": "https://link.coupang.com/a/itlpo3O8fQ",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/9b60cbb1-e729-43b1-8b7d-a6c1905b81964935829557830639737.png",
-    "updated_at": "2026-11-07",
-    "sort_priority": 77
   },
   {
     "no": 76,
