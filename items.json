@@ -1,38 +1,38 @@
 [
   {
-    "no": 60,
-    "subId": "pick60",
+    "no": 66,
+    "subId": "pick66",
     "is_top": true,
-    "category": "퇴근후·야식치트키",
-    "badge": "🔥 실시간 조회수 급상승 1위",
-    "orig_badge": "랩환경호르몬 걱정없는 렌지 3분 스팀통",
-    "title": "비닐랩 안 씌우고 바닥에 물 두 스푼만 부어 돌리면 갓 찐 듯 촉촉해지는 열탕소독 조리통",
-    "comment": "카레나 김치 국물 넣으면 색이 좀 배는데 끓는 물에 통째로 삶아 소독할 수 있는 국내산 소재라 야식 데울 때마다 안심하고 정착함",
-    "price": "23,940원",
-    "link": "https://link.coupang.com/a/iomyO7yndI",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/250816421012330-d92ea2b0-1ad7-4f76-92a9-c7f8779ba602.jpg",
+    "category": "피부과할부방어",
+    "badge": "🔥 실시간 조회수·프로필방문 1위",
+    "orig_badge": "스타킹 올나감 끝내는 마른발 뒤꿈치 주걱",
+    "title": "물에 불릴 필요 없이 마른 발뒤꿈치에 쓱 문지르면 하얀 굳은살만 갈려 나오는 양면 스텐 케어",
+    "comment": "절삭력이 워낙 좋아 힘줘서 밀면 생살이 따가울 수 있어 살살 문질러야 하지만 물로만 헹궈 반영구적으로 써서 정착함",
+    "price": "17,900원",
+    "link": "https://link.coupang.com/a/iqVg8MGJ8m",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/227860925693396-333acd90-1d29-4cb5-8e13-e37c8724965d.png",
     "updated_at": "2026-11-06",
-    "sort_priority": 1060
+    "sort_priority": 1150
   },
   {
     "no": 71,
     "subId": "pick71",
-    "is_top": false,
+    "is_top": true,
     "category": "야근회복·꿀잠",
     "badge": "흰옷·청바지 막 섞어 빨아도 물듦 없는 빨래종이",
     "orig_badge": "흰옷·청바지 막 섞어 빨아도 물듦 없는 빨래종이",
     "title": "분리 세탁할 필요 없이 빨래할 때 두 장 같이 넣으면 빠진 물감만 시커멓게 빨아들이는 벌집 흡수 종이 (400매)",
-    "comment": "처음 빠는 새 청바지는 물 빠짐이 심해 서너 장씩 넣어야 하지만 흰 블라우스랑 색깔 옷을 한꺼번에 돌려도 이염 걱정이 전혀 없음",
+    "comment": "처음 빠는 새 청바지는 물 빠짐이 심해 서너 장씩 넣어야 하지만 흰 블라우스랑 색깔 옷을 한꺼번에 돌려도 물듦 걱정이 전혀 없음",
     "price": "17,440원",
     "link": "https://link.coupang.com/a/isAhRQsSyq",
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/c37abd97-3b2e-4c0e-a3f6-123449751aec1505313217123882883.png",
     "updated_at": "2026-11-07",
-    "sort_priority": 1120
+    "sort_priority": 1140
   },
   {
     "no": 70,
     "subId": "pick70",
-    "is_top": false,
+    "is_top": true,
     "category": "야근회복·꿀잠",
     "badge": "샤워중 발목 구정물·하수구 악취 뚫어주는 노란 통 배수구 케어액",
     "orig_badge": "샤워중 발목 구정물·하수구 악취 뚫어주는 노란 통 배수구 케어액",
@@ -42,7 +42,7 @@
     "link": "https://link.coupang.com/a/irGl6rgjNk",
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/12108872649933-1611bfc7-3a98-4ee3-bc95-8aa16460d4c6.jpg",
     "updated_at": "2026-11-06",
-    "sort_priority": 1110
+    "sort_priority": 1130
   },
   {
     "no": 67,
@@ -57,37 +57,7 @@
     "link": "https://link.coupang.com/a/iqVg9ZCNhc",
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/2024/01/15/16/3/faaeb4a0-3db4-4582-966d-1d1a46d2deb5.jpg",
     "updated_at": "2026-11-06",
-    "sort_priority": 1100
-  },
-  {
-    "no": 66,
-    "subId": "pick66",
-    "is_top": false,
-    "category": "피부과할부방어",
-    "badge": "스타킹 올나감 끝내는 마른발 뒤꿈치 주걱",
-    "orig_badge": "스타킹 올나감 끝내는 마른발 뒤꿈치 주걱",
-    "title": "물에 불릴 필요 없이 마른 발뒤꿈치에 쓱 문지르면 하얀 굳은살만 갈려 나오는 양면 스텐 케어",
-    "comment": "절삭력이 워낙 좋아 힘줘서 밀면 생살이 따가울 수 있어 살살 문질러야 하지만 물로만 헹궈 반영구적으로 써서 정착함",
-    "price": "17,900원",
-    "link": "https://link.coupang.com/a/iqVg8MGJ8m",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/227860925693396-333acd90-1d29-4cb5-8e13-e37c8724965d.png",
-    "updated_at": "2026-11-06",
-    "sort_priority": 1090
-  },
-  {
-    "no": 43,
-    "subId": "pick43",
-    "is_top": false,
-    "category": "칼퇴·데스크템",
-    "badge": "커피쏟아도 물티슈 1초컷 방한실내화",
-    "orig_badge": "커피쏟아도 물티슈 1초컷 방한실내화",
-    "title": "겉면 방수 패딩이라 음료 튀어도 쓱 닦이고 안쪽은 털이 꽉 찬 무소음 쿠션 실내화",
-    "comment": "안쪽 털이 발등까지 빽빽해서 난방 세게 틀면 발에 땀이 살짝 날 수 있지만 바닥 쿠션이 두꺼워 복도 발소리와 발 시림이 사라짐",
-    "price": "11,830원",
-    "link": "https://link.coupang.com/a/igXODXRtaC",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/12197694146847-a850cd66-aaab-430d-a36e-e1e995f51b40.jpg",
-    "updated_at": "2026-11-06",
-    "sort_priority": 1070
+    "sort_priority": 1120
   },
   {
     "no": 63,
@@ -102,7 +72,22 @@
     "link": "https://link.coupang.com/a/ipgk8R5Fo4",
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/vendor_inventory/6cf5/4623caef36586084245d396026c0d152a5f7ed250503b2951d80b637be86.png",
     "updated_at": "2026-11-05",
-    "sort_priority": 1050
+    "sort_priority": 1110
+  },
+  {
+    "no": 60,
+    "subId": "pick60",
+    "is_top": false,
+    "category": "퇴근후·야식치트키",
+    "badge": "랩환경호르몬 걱정없는 렌지 3분 스팀통",
+    "orig_badge": "랩환경호르몬 걱정없는 렌지 3분 스팀통",
+    "title": "비닐랩 안 씌우고 바닥에 물 두 스푼만 부어 돌리면 갓 찐 듯 촉촉해지는 열탕소독 조리통",
+    "comment": "카레나 김치 국물 넣으면 색이 좀 배는데 끓는 물에 통째로 삶아 소독할 수 있는 국내산 소재라 야식 데울 때마다 안심하고 정착함",
+    "price": "23,940원",
+    "link": "https://link.coupang.com/a/iomyO7yndI",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/250816421012330-d92ea2b0-1ad7-4f76-92a9-c7f8779ba602.jpg",
+    "updated_at": "2026-11-06",
+    "sort_priority": 1100
   },
   {
     "no": 65,
@@ -163,36 +148,6 @@
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/2024/07/11/11/6/9c668c67-086e-4e5e-a612-ad5919a2681e.jpg",
     "updated_at": "2026-11-04",
     "sort_priority": 990
-  },
-  {
-    "no": 78,
-    "subId": "pick78",
-    "is_top": false,
-    "category": "야근회복·꿀잠",
-    "badge": "무거운 액체통 계량 없이 툭 던져 넣는 4중 젤리볼",
-    "orig_badge": "무거운 액체통 계량 없이 툭 던져 넣는 4중 젤리볼",
-    "title": "손목 아프게 계량할 필요 없이 빨래 밑에 하나 툭 던져 넣으면 땀내 빼주고 보라색 꽃향기 남기는 4중 젤리볼 (52개입)",
-    "comment": "젖은 손으로 집으면 겉 필름이 금방 녹아 꼭 마른 손으로 꺼내야 하지만 세탁기 위에 액체 흘릴 일 없이 한 알로 끝나 세상 편함",
-    "price": "24,200원",
-    "link": "https://link.coupang.com/a/itln4mrstM",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/65703e11-d1e8-4309-9b33-6a17a569ceba554188999262406083.png",
-    "updated_at": "2026-11-07",
-    "sort_priority": 989
-  },
-  {
-    "no": 77,
-    "subId": "pick77",
-    "is_top": false,
-    "category": "야근회복·꿀잠",
-    "badge": "무릎 안 꿇고 바닥 기름기·머리카락 닦아내는 도톰 엠보싱 천",
-    "orig_badge": "무릎 안 꿇고 바닥 기름기·머리카락 닦아내는 도톰 엠보싱 천",
-    "title": "막대에 끼워 서서 한 번 쓱 밀면 찌든 바닥 기름때와 잔머리카락이 시커멓게 다 묻어나오는 도톰 엠보싱 젖은 천 (360매)",
-    "comment": "입구 스티커를 대충 닫아두면 맨 위 장 끝이 살짝 마를 수 있어 꾹 눌러 닫아야 하지만 허리 안 숙이고 매일 새 장으로 뽀송하게 닦아서 정착함",
-    "price": "11,420원",
-    "link": "https://link.coupang.com/a/itlpo3O8fQ",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/9b60cbb1-e729-43b1-8b7d-a6c1905b81964935829557830639737.png",
-    "updated_at": "2026-11-07",
-    "sort_priority": 988
   },
   {
     "no": 59,
@@ -360,6 +315,36 @@
     "sort_priority": 870
   },
   {
+    "no": 78,
+    "subId": "pick78",
+    "is_top": false,
+    "category": "야근회복·꿀잠",
+    "badge": "무거운 액체통 계량 없이 툭 던져 넣는 4중 젤리볼",
+    "orig_badge": "무거운 액체통 계량 없이 툭 던져 넣는 4중 젤리볼",
+    "title": "손목 아프게 계량할 필요 없이 빨래 밑에 하나 툭 던져 넣으면 땀내 빼주고 보라색 꽃향기 남기는 4중 젤리볼 (52개입)",
+    "comment": "젖은 손으로 집으면 겉 필름이 금방 녹아 꼭 마른 손으로 꺼내야 하지만 세탁기 위에 액체 흘릴 일 없이 한 알로 끝나 세상 편함",
+    "price": "24,200원",
+    "link": "https://link.coupang.com/a/itln4mrstM",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/65703e11-d1e8-4309-9b33-6a17a569ceba554188999262406083.png",
+    "updated_at": "2026-11-07",
+    "sort_priority": 78
+  },
+  {
+    "no": 77,
+    "subId": "pick77",
+    "is_top": false,
+    "category": "야근회복·꿀잠",
+    "badge": "무릎 안 꿇고 바닥 기름기·머리카락 닦아내는 도톰 엠보싱 천",
+    "orig_badge": "무릎 안 꿇고 바닥 기름기·머리카락 닦아내는 도톰 엠보싱 천",
+    "title": "막대에 끼워 서서 한 번 쓱 밀면 찌든 바닥 기름때와 잔머리카락이 시커멓게 다 묻어나오는 도톰 엠보싱 젖은 천 (360매)",
+    "comment": "입구 스티커를 대충 닫아두면 맨 위 장 끝이 살짝 마를 수 있어 꾹 눌러 닫아야 하지만 허리 안 숙이고 매일 새 장으로 뽀송하게 닦아서 정착함",
+    "price": "11,420원",
+    "link": "https://link.coupang.com/a/itlpo3O8fQ",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/9b60cbb1-e729-43b1-8b7d-a6c1905b81964935829557830639737.png",
+    "updated_at": "2026-11-07",
+    "sort_priority": 77
+  },
+  {
     "no": 76,
     "subId": "pick76",
     "is_top": false,
@@ -394,10 +379,10 @@
     "subId": "pick74",
     "is_top": false,
     "category": "야근회복·꿀잠",
-    "badge": "겨울니트 정전기·실내건조 쉰내 끝내는 생화향 종이",
-    "orig_badge": "겨울니트 정전기·실내건조 쉰내 끝내는 생화향 종이",
-    "title": "무거운 액체 통 들 필요 없이 빨래 말릴 때 한 장 넣어두면 정전기 막아주고 옷장 가득 생화 향기 남기는 핑크 향기 종이 (120매)",
-    "comment": "처음 상자 뜯었을 땐 향이 꽤 진해서 현관에 두면 방 전체에 다 퍼지지만 겨울 니트 정전기가 안 튀고 잔향이 고급스러워 정착함",
+    "badge": "겨울니트 스파크·실내건조 쉰내 끝내는 생화향 종이",
+    "orig_badge": "겨울니트 스파크·실내건조 쉰내 끝내는 생화향 종이",
+    "title": "무거운 액체 통 들 필요 없이 빨래 말릴 때 한 장 넣어두면 따닥거림·달라붙음 막아주고 옷장 가득 생화 향기 남기는 핑크 향기 종이 (120매)",
+    "comment": "처음 상자 뜯었을 땐 향이 꽤 진해서 현관에 두면 방 전체에 다 퍼지지만 겨울 니트 따닥거림이 안 튀고 잔향이 고급스러워 정착함",
     "price": "10,840원",
     "link": "https://link.coupang.com/a/isAhVQra56",
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/934573637270894-6a0b2e9c-171c-4d0a-a0b1-6dd8f169eb04.jpg",
@@ -538,6 +523,21 @@
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/vendor_inventory/5fb7/c308cefe809ce3c9b4e4629346d7ab920f26134e54318737d8a3b534a196.jpg",
     "updated_at": "2026-10-31",
     "sort_priority": 44
+  },
+  {
+    "no": 43,
+    "subId": "pick43",
+    "is_top": false,
+    "category": "칼퇴·데스크템",
+    "badge": "커피쏟아도 물티슈 1초컷 방한실내화",
+    "orig_badge": "커피쏟아도 물티슈 1초컷 방한실내화",
+    "title": "겉면 방수 패딩이라 음료 튀어도 쓱 닦이고 안쪽은 털이 꽉 찬 무소음 쿠션 실내화",
+    "comment": "안쪽 털이 발등까지 빽빽해서 난방 세게 틀면 발에 땀이 살짝 날 수 있지만 바닥 쿠션이 두꺼워 복도 발소리와 발 시림이 사라짐",
+    "price": "11,830원",
+    "link": "https://link.coupang.com/a/igXODXRtaC",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/12197694146847-a850cd66-aaab-430d-a36e-e1e995f51b40.jpg",
+    "updated_at": "2026-11-06",
+    "sort_priority": 43
   },
   {
     "no": 42,
