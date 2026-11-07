@@ -1,8 +1,23 @@
 [
   {
+    "no": 76,
+    "subId": "pick76",
+    "is_top": true,
+    "category": "퇴근후·야식치트키",
+    "badge": "삼겹살 기름기·물비린내 순삭하는 초록 지퍼백 하얀알",
+    "orig_badge": "삼겹살 기름기·물비린내 순삭하는 초록 지퍼백 하얀알",
+    "title": "가루 날림이나 액체 계량 없이 그릇 통에 네모난 하얀 알약 하나 툭 던져 넣으면 굳은 기름때를 뽀득하게 분해하는 세정알 (55개)",
+    "comment": "그릇이 아주 적을 땐 한 알 다 넣으면 거품이 남을 수 있어 반으로 쪼개 넣어야 하지만 붉은 양념과 기름 냄새가 한 번에 싹 빠져 속 시원함",
+    "price": "10,080원",
+    "link": "https://link.coupang.com/a/isAhW24O1Q",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/254652600128914-5d231f80-d2a1-4992-b6db-c48f3eb547d1.jpg",
+    "updated_at": "2026-11-07",
+    "sort_priority": 1200
+  },
+  {
     "no": 74,
     "subId": "pick74",
-    "is_top": false,
+    "is_top": true,
     "category": "야근회복·꿀잠",
     "badge": "겨울니트 스파크·실내건조 쉰내 끝내는 생화향 종이",
     "orig_badge": "겨울니트 스파크·실내건조 쉰내 끝내는 생화향 종이",
@@ -17,7 +32,7 @@
   {
     "no": 75,
     "subId": "pick75",
-    "is_top": false,
+    "is_top": true,
     "category": "피부과할부방어",
     "badge": "세면대 물컹한 덩어리 없애는 1초 구름거품 통",
     "orig_badge": "세면대 물컹한 덩어리 없애는 1초 구름거품 통",
@@ -62,7 +77,7 @@
   {
     "no": 66,
     "subId": "pick66",
-    "is_top": true,
+    "is_top": false,
     "category": "피부과할부방어",
     "badge": "🔥 실시간 조회수 급상승 1위",
     "orig_badge": "스타킹 올나감 끝내는 마른발 뒤꿈치 주걱",
@@ -448,21 +463,6 @@
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/65703e11-d1e8-4309-9b33-6a17a569ceba554188999262406083.png",
     "updated_at": "2026-11-07",
     "sort_priority": 78
-  },
-  {
-    "no": 76,
-    "subId": "pick76",
-    "is_top": false,
-    "category": "퇴근후·야식치트키",
-    "badge": "삼겹살 기름기·물비린내 순삭하는 초록 지퍼백 하얀알",
-    "orig_badge": "삼겹살 기름기·물비린내 순삭하는 초록 지퍼백 하얀알",
-    "title": "가루 날림이나 액체 계량 없이 그릇 통에 네모난 하얀 알약 하나 툭 던져 넣으면 굳은 기름때를 뽀득하게 분해하는 세정알 (55개)",
-    "comment": "그릇이 아주 적을 땐 한 알 다 넣으면 거품이 남을 수 있어 반으로 쪼개 넣어야 하지만 붉은 양념과 기름 냄새가 한 번에 싹 빠져 속 시원함",
-    "price": "10,080원",
-    "link": "https://link.coupang.com/a/isAhW24O1Q",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/254652600128914-5d231f80-d2a1-4992-b6db-c48f3eb547d1.jpg",
-    "updated_at": "2026-11-06",
-    "sort_priority": 76
   },
   {
     "no": 72,
