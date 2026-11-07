@@ -1,8 +1,23 @@
 [
   {
+    "no": 75,
+    "subId": "pick75",
+    "is_top": true,
+    "category": "피부과할부방어",
+    "badge": "세면대 물컹한 덩어리 없애는 1초 구름거품 통",
+    "orig_badge": "세면대 물컹한 덩어리 없애는 1초 구름거품 통",
+    "title": "손으로 비벼 거품 낼 필요 없이 한 번 누르면 생크림 같은 거품이 올라와 파우더 향만 보송하게 남기는 욕실 세정 통 (2개)",
+    "comment": "거품이 워낙 부드러워 무심코 두 번씩 누르면 생각보다 빨리 줄어들지만 물에 불어 머리카락 붙던 세면대가 깔끔해지고 손이 안 당김",
+    "price": "10,300원",
+    "link": "https://link.coupang.com/a/isAhWokyIu",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/921015390600365-10df38bf-efc2-41a4-89c4-8a91ff68522f.jpg",
+    "updated_at": "2026-11-07",
+    "sort_priority": 1180
+  },
+  {
     "no": 77,
     "subId": "pick77",
-    "is_top": false,
+    "is_top": true,
     "category": "야근회복·꿀잠",
     "badge": "무릎 안 꿇고 바닥 기름기·머리카락 닦아내는 도톰 엠보싱 천",
     "orig_badge": "무릎 안 꿇고 바닥 기름기·머리카락 닦아내는 도톰 엠보싱 천",
@@ -17,7 +32,7 @@
   {
     "no": 73,
     "subId": "pick73",
-    "is_top": false,
+    "is_top": true,
     "category": "칼퇴·데스크템",
     "badge": "회식 좌식식당 부츠 발냄새 봉인 파란 분무통",
     "orig_badge": "회식 좌식식당 부츠 발냄새 봉인 파란 분무통",
@@ -32,7 +47,7 @@
   {
     "no": 66,
     "subId": "pick66",
-    "is_top": true,
+    "is_top": false,
     "category": "피부과할부방어",
     "badge": "🔥 실시간 조회수 급상승 1위",
     "orig_badge": "스타킹 올나감 끝내는 마른발 뒤꿈치 주걱",
@@ -373,21 +388,6 @@
     "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/254652600128914-5d231f80-d2a1-4992-b6db-c48f3eb547d1.jpg",
     "updated_at": "2026-11-06",
     "sort_priority": 76
-  },
-  {
-    "no": 75,
-    "subId": "pick75",
-    "is_top": false,
-    "category": "피부과할부방어",
-    "badge": "세면대 물컹한 덩어리 없애는 1초 구름거품 통",
-    "orig_badge": "세면대 물컹한 덩어리 없애는 1초 구름거품 통",
-    "title": "손으로 비벼 거품 낼 필요 없이 한 번 누르면 생크림 같은 거품이 올라와 파우더 향만 보송하게 남기는 욕실 세정 통 (2개)",
-    "comment": "거품이 워낙 부드러워 무심코 두 번씩 누르면 생각보다 빨리 줄어들지만 물에 불어 머리카락 붙던 세면대가 깔끔해지고 손이 안 당김",
-    "price": "10,300원",
-    "link": "https://link.coupang.com/a/isAhWokyIu",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/600x600ex/image/retail/images/921015390600365-10df38bf-efc2-41a4-89c4-8a91ff68522f.jpg",
-    "updated_at": "2026-11-06",
-    "sort_priority": 75
   },
   {
     "no": 74,
