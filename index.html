@@ -418,17 +418,17 @@
       <div class="section-title">⚡ 자취 직장인 매일 출석하는 쿠팡 특가존</div>
       <div class="section-sub">오늘만 열리는 반값 할인 & 퇴근 전 시키는 새벽배송 특가</div>
       <div class="quick-links">
-        <a class="quick-link-card" href="https://link.coupang.com/a/hZuDlHsjZI" target="_blank" rel="noopener" onclick="trackClick({no:'GOLDBOX', subId:'goldbox', title:'골드박스 오늘의특가'})">
+        <a class="quick-link-card" href="https://link.coupang.com/a/hZuDlHsjZI" rel="noopener" onclick="trackClick({no:'GOLDBOX', subId:'goldbox', title:'골드박스 오늘의특가'})">
           <span class="ql-emoji">🔥</span>
           <span class="ql-title">골드박스</span>
           <span class="ql-desc">오늘만 초특가</span>
         </a>
-        <a class="quick-link-card" href="https://link.coupang.com/a/hZuDmd6bW8" target="_blank" rel="noopener" onclick="trackClick({no:'FRESH', subId:'fresh', title:'로켓프레시 새벽배송'})">
+        <a class="quick-link-card" href="https://link.coupang.com/a/hZuDmd6bW8" rel="noopener" onclick="trackClick({no:'FRESH', subId:'fresh', title:'로켓프레시 새벽배송'})">
           <span class="ql-emoji">🥗</span>
           <span class="ql-title">로켓프레시</span>
           <span class="ql-desc">자취식단·야식</span>
         </a>
-        <a class="quick-link-card" href="https://link.coupang.com/a/hZuDmzkFA4" target="_blank" rel="noopener" onclick="trackClick({no:'ROCKET', subId:'rocket', title:'로켓배송 베스트'})">
+        <a class="quick-link-card" href="https://link.coupang.com/a/hZuDmzkFA4" rel="noopener" onclick="trackClick({no:'ROCKET', subId:'rocket', title:'로켓배송 베스트'})">
           <span class="ql-emoji">🚀</span>
           <span class="ql-title">로켓배송</span>
           <span class="ql-desc">내일 도착 보장</span>
@@ -472,11 +472,16 @@
           ua: /iPhone|iPad|iPod/i.test(navigator.userAgent) ? "iOS" : (/Android/i.test(navigator.userAgent) ? "Android" : "Web"),
           ts: new Date().toISOString()
         });
-        fetch(`https://ntfy.sh/${TRACK_TOPIC}`, {
-          method: "POST",
-          body: payload,
-          keepalive: true
-        }).catch(() => {});
+        if (navigator.sendBeacon) {
+          const blob = new Blob([payload], { type: "text/plain;charset=UTF-8" });
+          navigator.sendBeacon(`https://ntfy.sh/${TRACK_TOPIC}`, blob);
+        } else {
+          fetch(`https://ntfy.sh/${TRACK_TOPIC}`, {
+            method: "POST",
+            body: payload,
+            keepalive: true
+          }).catch(() => {});
+        }
       } catch (e) {}
     }
 
@@ -501,7 +506,7 @@
         : "";
       const priceTeaser = formatPriceTeaser(it.price);
       return `
-        <a class="item-card ${topClass}" href="${it.link}" target="_blank" rel="noopener" onclick='trackClick(${clickData})'>
+        <a class="item-card ${topClass}" href="${it.link}" rel="noopener" onclick='trackClick(${clickData})'>
           ${liveBanner}
           <div class="card-top">
             <span class="num-badge">[${it.no}번] 정착템</span>
